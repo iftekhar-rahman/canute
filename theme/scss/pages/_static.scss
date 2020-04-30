@@ -1,0 +1,31 @@
+/*-------------part-exchange css-------------*/ 
+
+.static-pages {
+    padding: 30px 0 170px;
+    @include all-below-med{
+        padding: 10px 0 150px;
+    }
+    @include all-below-mobile-lg{
+        padding: 10px 0 100px;
+    }
+    .section-title{
+        margin-bottom: 20px;
+    }
+	
+	h3 { font-size: 20px; margin: 20px 0 3px; font-weight: 600; }
+	
+	img { float: right; width: 400px; margin: 0 0 15px 15px;  }
+	
+	ul {
+		list-style-type: disc;
+		padding-left: 20px;
+		margin-bottom: 15px;	
+		
+		span { font-weight: 600; }
+	} 
+	
+	p {	
+		margin-bottom: 25px; 
+	}
+	
+}

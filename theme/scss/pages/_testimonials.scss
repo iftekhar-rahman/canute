@@ -1,0 +1,439 @@
+
+// .testimonial-banner-area
+.testimonial-banner-area {
+    @extend %primary-color-darken;
+    @extend %white-color;
+    height: 150px;
+    @include all-below-mobile-lg{
+        height: 130px;
+    }
+    .testimonial-banner{
+        h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            @include all-below-med{
+                font-size: 30px;
+            }
+        }
+        h3 {
+            font-weight: 300;
+            font-size: 21px;
+            letter-spacing: 2px;
+            margin: 0;
+            @include all-below-med{
+                font-size: 18px;
+            }
+        }
+    }
+}
+// .breadcrumb-area
+.breadcrumb-area.testimonial-page {
+    padding: 12px 0px;
+    margin-bottom: 0;
+    ul {
+        li {
+            a {
+                text-transform: inherit;
+            }
+            &:last-child a{
+                @extend %primary-color;;
+            }
+        }
+    }
+}
+
+.testimonials-wrapper{
+    padding: 70px 0 100px;
+    @include all-below-mobile-lg{
+        padding: 50px 0 70px;
+    }
+}
+
+// .single-testimonial
+.single-testimonial {
+    @extend %lightblue-bg-color;
+    @extend %borderradius5;
+    margin-bottom: 70px;
+    @include all-below-med{
+        margin-bottom: 50px;
+    }
+    .stars {
+        margin: 0 0 15px 30px;
+    }
+    .testimonial-content {
+        padding: 50px 30px 0px 30px;
+        @extend %primary-color;
+        min-height: 359px;
+        font-size: 15px;
+        @include mx-desktops{
+            padding: 50px 20px 0px 20px;
+        }
+        @include  mx-tablet{
+            min-height: 270px;
+        }
+        @include  mx-mobile-lg{
+            min-height: 300px;
+        }
+        h3 {
+            @extend %primary-color;
+            font-size: 21px;
+        }
+        .testimonial-content-inner {
+            a {
+                @extend %primary-color;
+                @extend %uppercase;
+                font-size: 12px;
+                font-weight: 700;
+                @extend %basetransition1;
+                &:hover{
+                    @extend %secondary-color;
+                }
+            }
+        }
+        .quote {
+            color: #19B5F6;
+            font-size: 50px;
+            line-height: 50px;
+            &.quote-left {
+                @extend %posabsolute;
+                left: 30px;
+                top: -22px;
+                @include mx-desktops{
+                    left: 20px;
+                }
+            }
+            &.quote-right {
+                opacity: .4;
+                @extend %posabsolute;
+                right: 30px;
+                bottom: 10px;
+                @include mx-desktops{
+                    right: 20px;
+                }
+            }
+        }
+    }
+    .testimonial-footer {
+        background: #19B5F6;
+        border-radius: 0 0 5px 5px;
+        padding: 18px 30px;
+        h3 {
+            font-size: 21px;
+            @extend %white-color;
+            margin: 0;
+        }
+        .review-source {
+            width: 70px;
+            height: 70px;
+            border: 5px solid #fff;
+            @extend %borderradius50;
+            @extend %textcenter;
+            @extend %white-color;
+            line-height: 66px;
+            font-size: 30px;
+            margin-top: -55px;
+            background: #19B5F6;
+        }
+    }
+    // google-review
+    &.google-review{
+        .quote{
+            color: #DD4C40;
+        }
+        .testimonial-footer, .review-source{
+            background-color: #DD4C40;
+        }
+    }
+    // facebook-review
+    &.facebook-review{
+        .quote{
+            color: #3C5A99;
+        }
+        .testimonial-footer, .review-source{
+            background-color: #3C5A99;
+        }
+    }
+    // facebook-review
+    &.facebook-review{
+        .quote{
+            color: #3C5A99;
+        }
+        .testimonial-footer, .review-source{
+            background-color: #3C5A99;
+        }
+    }
+}
+
+// .single-testimonial post-review
+.single-testimonial.post-review {
+    .review-title {
+        @extend %primary-bg-color;
+        @extend %white-color;
+        padding: 21px 35px;
+        font-size: 18px;
+        margin: 0;
+        border-radius: 5px 5px 0 0;
+        @extend %uppercase;
+    }
+    .post-ratings {
+        margin-bottom: 125px;
+        .single-star {
+            span {
+                width: 50px;
+                height: 50px;
+                color: #CCCCCC;
+                @extend %white-bg-color;
+                @extend %textcenter;
+                line-height: 51px;
+                font-size: 22px;
+                @extend %borderradius5;
+                margin-right: 8px;
+                display: block;
+                cursor: pointer;
+                @include mx-desktops{
+                    width: 46px;
+                    height: 46px;
+                    line-height: 47px;
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
+            }
+            &.active {
+                span {
+                    color: #FF7E00;
+                }
+            }
+            &:last-child{
+                span{
+                    margin-right: 0;
+                }
+            }
+            &:nth-child(1){
+                &.active{
+                    h5{
+                        @extend %visible;
+                        background-color: #fff;
+                        z-index: 1;
+                    }
+                }
+                &.show-arrow{
+                    h5{
+                        &:after {
+                            @extend %visible;
+                        } 
+                    }
+                }
+            }
+            &:nth-child(2){
+                &.active{
+                    h5{
+                        @extend %visible;
+                        left: -58px;
+                        z-index: 2;
+                        @include mx-desktops{
+                            left: -51px;
+                        }
+                    }
+                }
+                &.show-arrow{
+                    h5{
+                        &:after {
+                            @extend %visible;
+                            left: 72px;
+                            @include mx-desktops{
+                                left: 62px;
+                            }
+                        } 
+                    }
+                }
+            }
+            &:nth-child(3){
+                &.active{
+                    h5{
+                        @extend %visible;
+                        left: -116px;
+                        z-index: 3;
+                        @include mx-desktops{
+                            left: -101px;
+                        }
+                    }
+                }
+                &.show-arrow{
+                    h5{
+                        &:after {
+                            @extend %visible;
+                            left: 130px;
+                            @include mx-desktops{
+                                left: 113px;
+                            }
+                        } 
+                    }
+                }
+            }
+            &:nth-child(4){
+                &.active{
+                    h5{
+                        @extend %visible;
+                        left: -174px;
+                        z-index: 4;
+                        @include mx-desktops{
+                            left: -152px;
+                        }
+                    }
+                }
+                &.show-arrow{
+                    h5{
+                        &:after {
+                            @extend %visible;
+                            left: 188px;
+                            @include mx-desktops{
+                                left: 164px;
+                            }
+                        } 
+                    }
+                }
+            }
+            &:nth-child(5){
+                &.active{
+                    h5{
+                        @extend %visible;
+                        left: -232px;
+                        z-index: 5;
+                        @include mx-desktops{
+                            left: -203px;
+                        }
+                    }
+                }
+                &.show-arrow{
+                    h5{
+                        &:after {
+                            @extend %visible;
+                            left: 245px;
+                            @include mx-desktops{
+                                left: 215px;
+                            }
+                        } 
+                    }
+                }
+            }
+            h5{
+                @extend %white-bg-color;
+                @extend %borderradius5;
+                padding: 17px 20px 15px;
+                font-size: 12px;
+                font-weight: 700;
+                @extend %uppercase;
+                box-shadow: 0px 0px 20px -16px #000;
+                @extend %posabsolute;
+                left: 0;
+                top: 85px;
+                @extend %invisible;
+                width: 280px;
+                @include mx-desktops{
+                    width: 250px;
+                }
+                &:after {
+                    @extend %posabsolute;
+                    content: "";
+                    left: 13px;
+                    top: -10px;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    border-bottom: 10px solid #fff;
+                    @extend %invisible;
+                }
+            }
+        }
+    }
+    .post-ratings-wrap {
+        padding: 40px 35px 35px;
+        @include mx-desktops{
+            padding: 40px 20px 35px;
+        }
+        @include all-below-med{
+            padding: 30px;
+        }
+        @include all-mx-mobile {
+            padding: 25px 20px;
+        }
+        h3 {
+            @extend %primary-color;
+            font-size: 18px;
+            margin-bottom: 13px;
+        }
+        h6 {
+            color: #000;
+            font-weight: 500;
+            font-size: 13px;
+            @extend %uppercase;
+            margin-bottom: 10px;
+        }
+        .testimonials-form {
+            .form-group {
+                margin-bottom: 20px;
+            }
+            input[type=text] {
+                width: 100%;
+                font-size: 14px;
+                font-weight: 300;
+                padding: 13px 15px;
+                box-shadow: 0px 3px 3px 0px #ddd;
+                margin-bottom: 15px;
+                @include all-below-med{
+                    margin-bottom: 10px;
+                }
+            }
+            textarea {
+                height: 400px;
+                font-size: 14px;
+                font-weight: 300;
+                padding: 15px 20px;
+                @include all-below-med{
+                    height: 200px;
+                }
+            }
+            .emojis-wrap {
+                font-size: 13px;
+                @extend %uppercase;
+                font-weight: 500;
+                .emojis {
+                    cursor: pointer;
+                    padding: 5px 0;
+                    i {
+                        font-size: 16px;
+                        margin-right: 2px;
+                        @extend %posabsolute;
+                        left: 0;
+                        top: 6px;
+                    }
+                    span{
+                        padding-left: 18px;
+                    }
+                }
+                .characters {
+                    padding: 5px 0;
+                    strong {
+                        color: #ff0000;
+                        margin-left: 3px;
+                    }
+                }
+            }
+            .boxed-btn {
+                padding: 12px 35px;
+                @extend %primary-bg-color;
+                margin-top: 25px;
+                @include all-below-med{
+                    margin-top: 20px;
+                }
+                &:hover {
+                    background: transparent;
+                    // @extend %primary-color;
+                }
+            }
+        }
+    }
+}
+
+
+
+

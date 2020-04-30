@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Car Finance</title>
+        
+        <!--Theme specific styles-->
+        <link href="../theme/css/canute.min.css" rel="stylesheet">
+        <link href="css/client.min.css" rel="stylesheet">
+        
+        <!--Core jQuery-->
+        <script src="../theme/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../theme/js/jquery-migrate-1.4.1.min.js"></script>
+    </head>
+    <body>
+
+        <!-- header starts -->
+        <div class="header custom-header">
+            <!-- header-area starts -->
+            <div class="header-area d-flex align-items-end">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                           <div class="header-content d-flex d-flex justify-content-center justify-content-lg-between">
+                                <div class="site-logo d-flex align-items-center order-2 order-lg-0">
+                                    <a href="index.html">
+										<img src="img/logo.png" alt="">
+									</a>
+                                </div> 
+                                <div class="header-right d-flex align-items-center">
+                                    <div class="header-single-item header-social-icons d-none d-lg-block">
+                                        <h6>Follow Us</h6>
+                                        <div class="social-icons">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-instagram"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="header-single-item header-address position-relative d-none d-lg-block">
+                                        <span class="header-icon"><i class="fa fa-heart-o"></i></span>
+                                        <h6>Favourites</h6>
+                                        <h5>items ( 0 )</h5>
+                                    </div>
+                                    <div class="header-single-item header-phone position-relative">
+                                        <a href="tel:01268766722" class="float-right position-relative">
+                                            <span class="header-icon"><i class="fa fa-phone"></i></span>
+                                            <h6 class="d-none d-lg-block">Call Us</h6>
+                                            <h5 class="d-none d-lg-block">01268 766722</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- header-area ends -->
+
+            <!-- mainmenu-area starts -->
+            <div class="mainmenu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mainmenu text-center position-relative">
+                                <ul id="menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Browse cars <i class="fa fa-angle-down"></i></a>
+                                        <ul>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a>
+                                                <ul>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Used Vans <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">Finance <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">Valuation <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">Protection <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">BTCC</a></li>
+                                    <li><a href="#">About</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- mainmenu-area ends -->
+        </div>
+        <!-- header ends -->
+
+        <div class="spacer d-block d-lg-none"></div>
+
+        <!-- alert-message-section starts || css in header.scss-->
+		<!--
+        <div class="alert-message-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <p>Please note we will close Christmas Eve at 1pm and reopen on Friday 27th. See our full <a href="#">Xmas opening hours</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+		-->
+        <!-- alert-message-section ends -->
+
+        <!-- breadcrumb-area starts -->
+        <div class="breadcrumb-area finance-breadcrumb d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li>Car Finance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb-area ends -->
+
+        <!-- finance-banner-area starts -->
+        <div class="finance-banner-area" style="background-image: url(./img/finance-lifestyle.webp);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="finance-banner-text">
+                            <h2>We process more Car Finance approvals than our competitors</h2>
+                            <div class="finance-banner-btn">
+                                <a href="#" class="boxed-btn">Find Out More</a>
+                                <a href="#" class="boxed-btn apply-btn">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- finance-banner-area ends -->
+
+        <!-- finance-about-area starts -->
+        <div class="finance-about-area" style="background-image: url(./img/faces-bg.webp);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <h2>What makes our car finance different?</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="single-finance-about-item">
+                            <span>30</span>
+                            <h3>Access to over 30 finance companies</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-finance-about-item">
+                            <span>5.99%</span>
+                            <h3>Representative APR of 5.99%</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-finance-about-item">
+                            <span>150</span>
+                            <h3>We stock over 150 cars to choose from</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-finance-about-item">
+                            <span>0%</span>
+                            <h3>We offer 0% deposit Finance options</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- finance-about-area ends -->
+
+        <!-- finance-text-area starts -->
+        <div class="finance-text-area" style="background-image: url(./img/hand-bg.webp);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <h2>Car Finance Norwich</h2>
+                        <p>Good credit or bad credit? Either way we can offer you some of the most competitive deals on the market. We're here to make car finance easy, helping you every step of the way either online or in one of showrooms. We care more about your future than your past, which is why we're able to lend when others have not.</p>
+                        <h2>Buy for less, borrow for less</h2>
+                        <p>Get a great rate of 5.99% APR Representative. Not only do we offer amazing value quality used cars, we also offer incredible car finance packages to match. What makes us different? We're independent and family run. We have established relationships with our finance lenders, and we understand the needs of our customers. To us, that's our job. So, whether you're looking for a quick decision online, or you're more of a face to face person - we can help.</p>
+                        <a href="#" class="boxed-btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- finance-text-area ends -->
+
+        <!-- finance-contact-area starts -->
+        <div class="finance-contact-area position-relative">
+            <div class="finance-contact-bg left" style="background-image: url(./img/contact-bg-left.webp);"></div>
+            <div class="finance-contact-bg right" style="background-image: url(./img/contact-bg-right.webp);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="finance-contact-block left">
+                            <h2>Contact Us</h2>
+                            <p>It's never been easier to apply for car finance, and we're here to make the process as smooth and stress free as possible. We offer affordable finance packages to suit all needs and budget. Contact us today and see how we can help make your dreams a reality.</p>
+                            <a href="#" class="boxed-btn">Get in touch</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="finance-contact-block right">
+                            <h2>Find My Car</h2>
+                            <p>Are you looking for your next car and you're not sure who to trust or where to go? It can be daunting when choosing to buy a used car. That's why all our cars come approved as standard. We work to the AA dealer Promise, adding peace of mind with every purchase. View the extensive range of used cars we have in stock today.</p>
+                            <a href="#" class="boxed-btn">Used cars</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- finance-contact-area ends -->
+
+        <!-- finance-video-area starts -->
+        <div class="finance-video-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h2>Finance Videos</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single-video-item">
+                            <div class="f-title d-flex align-items-end flex-direction-column">
+                                <h4>Why finance through a dealership?</h4>
+                            </div>
+                            <img src="img/video-image-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-video-item">
+                            <div class="f-title d-flex align-items-end flex-direction-column">
+                                <h4>What is Hire Purchase?</h4>
+                            </div>
+                            <img src="img/video-image-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-video-item">
+                            <div class="f-title d-flex align-items-end flex-direction-column">
+                                <h4>What is Hire Purchase?</h4>
+                            </div>
+                            <img src="img/video-image-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- finance-video-area ends -->
+
+        <!-- finance-apply-content-area starts -->
+        <!-- <div class="finance-apply-content-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12"> -->
+                        <!-- intro-section starts -->
+                        <!-- <div class="intro-section">
+                            <div class="intro-logo">
+                                <img src="img/logo.png" alt="">
+                            </div>
+                            <div class="intro-block">
+                                <h2>Welcome</h2>
+                                <p>By fully completing this finance application we will be able to quickly and accurately get back to you with a decision.</p>
+                                <p>You can be assured that:</p>
+                                <ul>
+                                    <li>There is no obligation to purchase anything</li>
+                                    <li>It’s a safe and secure process</li>
+                                    <li>Our form is quick and simple to complete</li>
+                                </ul>
+                            </div> -->
+                            <!-- privacy-policy-block starts -->
+                            <!-- <div class="privacy-policy-block">
+                                <p><strong>Codeweavers Privacy Notice Summary</strong></p>
+                                <p>Codeweavers Ltd (“we”, “us” or “our”), provides software services and websites for the automotive industry as a data processor.</p>
+                                <p>We understand that privacy and security of your information is important. Our Privacy Notice explains what information we collect from you when making Finance Enquiries or Applications. It also explains the purpose and legal basis that we have for processing your personal data, along with information about what we do with it and who we share it with.</p>
+                                <p><strong>Why do we need the information gathered on this form?</strong></p>
+                                <ul>
+                                    <li>All information entered is securely provided to the retailer to contact you to discuss your purchase and finance, which we store on their behalf. The retailer may need to contact you for more information before your information can be passed on to a lender as part of a formal application.</li>
+                                    <li>A failure to provide accurate and relevant data will mean that you are unable to benefit from some or all of the services.</li>
+                                    <li>Please note that the other parties detailed in the full Privacy Notice are data controllers and will have their own applicable policies for their handling of your data. Please refer to them directly and/or their websites for more information.</li>
+                                </ul>
+                                <p>Please  <a href="#">click this link</a> to the full Privacy Notice for more detail about why and how the information on this form is processed.</p>
+                                <p><strong>By clicking 'Agree & Proceed', you are acknowledging that you have read the full privacy notice, and that you agree to proceed.</strong></p>
+                                
+                                <div class="text-right">
+                                    <button class="dpa-accept" type="button" data-ticked="false">
+                                        Agree &amp; Proceed <span class="tick-box"> <i class="fa fa-check"></i></span>
+                                    </button>
+                                </div>
+                            </div> -->
+                            <!-- privacy-policy-block ends -->
+                        <!-- </div> -->
+                        <!-- intro-section ends -->
+
+                        <!-- finance-form-section - applicant-form starts -->
+                        <!-- <div class="finance-form-section applicant-form">
+                            <h4>Applicant</h4>
+                            <div class="finance-form-wrap">
+                                <h4>Personal Details</h4>
+                                <form action=""> -->
+                                    <!-- starts -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="title">Title</label>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <select name="title" id="title">
+                                                <option value="0">Please Select</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                                <option value="4">Four</option>
+                                                <option value="5">Five</option>
+                                            </select>
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="forename">Forename</label>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <input type="text" name="forename" disabled>
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="middlename">Middle Name</label>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <input type="text" name="middlename">
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="surname">Surname</label>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <input type="text" name="surname">
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="primarytelephone">Primary Telephone</label> <i class="fa fa-question-circle"></i>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <input type="tel" name="primarytelephone">
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="secondarytelephone">Secondary Telephone</label>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <input type="tel" name="secondarytelephone">
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="email">Email</label>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <input type="email" name="email">
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="birthdate">Date Of Birth</label>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <input type="text" name="birthdate" placeholder="DD / MM / YYYY" id="datepicker">
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="maritalstatus">Marital Status</label>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <select name="maritalstatus" id="maritalstatus">
+                                                <option value="0">Please Select</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                                <option value="4">Four</option>
+                                                <option value="5">Five</option>
+                                            </select>
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="dependants">Dependants</label> 
+                                            <i class="fa fa-question-circle"></i>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <input type="text" name="dependants">
+                                            <i class="read-only fa fa-lock"></i>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                    <!-- <div class="single-finance-form-item d-flex">
+                                        <div class="form-left-content text-right w-50 position-relative">
+                                            <label for="purchasing">Purchasing For Business Use?</label> 
+                                            <label for="asBranchID1">Purchasing For Business Use?</label>
+                                        </div>
+                                        <div class="form-right-content w-50 position-relative">
+                                            <input type="checkbox" name="purchasing" id="purchasing">
+                                        </div>
+                                        <div class="single-body-item">
+                                            <div id="branchIDGroup">
+                                                <input type="checkbox" name="branchID" id="asBranchID1">
+                                                
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <!-- ends -->
+                                <!-- </form>
+                            </div>
+                        </div> -->
+                        <!-- finance-form-section - applicant-form ends -->
+                        
+                    <!-- </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- finance-apply-content-area ends -->
+
+        <!-- footer starts -->
+        <div class="footer">
+            <div class="container">
+                <div class="position-relative">
+                    <div class="section-shape text-center">
+                        <!-- Shape SVG starts -->
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="713px"
+                            height="101px" viewBox="0 0 713 101" enable-background="new 0 0 713 101" xml:space="preserve">
+                        <g id="Layer_1" display="none">
+                        </g>
+                        <g id="Layer_2">
+                            <g>
+                                <defs>
+                                    <rect id="SVGID_1_" width="713" height="101"/>
+                                </defs>
+                                <clipPath id="SVGID_2_">
+                                    <use xlink:href="#SVGID_1_"  overflow="visible"/>
+                                </clipPath>
+                                <g id="shape.psd" clip-path="url(#SVGID_2_)">
+                                    <defs>
+                                        <rect id="SVGID_3_" x="-228.758" y="8" width="1169.997" height="153"/>
+                                    </defs>
+                                    <clipPath id="SVGID_4_">
+                                        <use xlink:href="#SVGID_3_"  overflow="visible"/>
+                                    </clipPath>
+                                    <g id="WebsiteBg" clip-path="url(#SVGID_4_)">
+                                        <g>
+                                            <path fill="#20274D" d="M726.93,100.946C606.578,100.946,628.356,8,519.551,8C483.57,8,271.857,8,192.93,8
+                                                c-108.806,0-87.028,92.946-207.379,92.946c-120.352,0-214.309,0-214.309,0V161H941.239v-60.054
+                                                C941.239,100.946,847.282,100.946,726.93,100.946z"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        </svg><!-- Shape SVG ends -->
+                        <div class="section-title text-center">
+                            <h2>Stock Updates</h2>
+                            <p>Enter your details to receive new notifications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- subscription-form-section starts -->
+                        <div class="subscription-form-section">
+                            <div class="subscription-form position-relative">
+                                <i class="fa fa-envelope-o"></i>
+                                <input type="email" placeholder="Enter Email Address" name="emailsubscription">
+                                <button class="boxed-btn" type="submit" value="submit">Subscribe</button>
+                            </div>
+                        </div><!-- subscription-form-section ends -->
+                        <!-- footer-widget-sction widget-section-one starts -->
+                        <div class="footer-widget-sction widget-section-one d-flex flex-wrap flex-lg-nowrap">
+                            <div class="single-footer-widget-item quick-links1">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Finance</a></li>
+                                    <li><a href="#">Valuation</a></li>
+                                    <li><a href="#">Protection</a></li>
+                                    <li><a href="#">BTCC</a></li>
+                                    <li><a href="#">About</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item quick-links2">
+                                <h4>Help & Support</h4>
+                                <ul>
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Cookies</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Complaints</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item footer-contact-section">
+                                <h4>Get In Touch</h4>
+                                <div class="d-flex align-items-start justify-content-between">
+                                    <div class="footer-address position-relative">
+                                        <i class="fa fa-map-marker"></i>
+                                        <p>Vanhurst Industrial Estate,<br> Woodham Road,<br> Battlesbridge, Wickford,<br> Essex SS11 7QY</p>
+                                    </div>
+                                    <div class="single-footer-contact footer-phone-contact position-relative">
+                                        <h6>Call US</h6>
+                                        <a href="tel:01268766722"><i class="fa fa-phone"></i>01268 766722</a>
+                                    </div>
+                                </div>
+                                <div class="footer-contact">
+                                    <div class="single-footer-contact position-relative">
+                                        <i class="fa fa-envelope-o"></i>
+                                        <h6>Email US</h6>
+                                        <a href="mailto:info@tradepricecars.com">info@tradepricecars.com</a>
+                                    </div>
+                                </div>
+                                <div class="footer-social-icons">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div><!-- footer-contact-section ends -->
+                        </div><!-- footer-widget-sction widget-section-one ends -->
+
+                        <!-- footer-widget-sction widget-section-two starts -->
+                        <div class="footer-widget-sction widget-section-two d-flex flex-wrap flex-lg-nowrap">
+                            <div class="single-footer-widget-item browse-cars-one">
+                                <h4>Browse Cars</h4>
+                                <ul>
+                                    <li><a href="#">Used Audi</a></li>
+                                    <li><a href="#">Used BMW</a></li>
+                                    <li><a href="#">Used Citroen</a></li>
+                                    <li><a href="#">Used Dacia</a></li>
+                                    <li><a href="#">Used Dodge</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item browse-cars-two">
+                                <h4 style="opacity:0">empty title</h4>
+                                <ul>
+                                    <li><a href="#">Used Fiat</a></li>
+                                    <li><a href="#">Used Ford</a></li>
+                                    <li><a href="#">Used Honda</a></li>
+                                    <li><a href="#">Used Hyundai</a></li>
+                                    <li><a href="#">Used Jaguar</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item browse-cars-three">
+                                <h4 style="opacity:0">empty title</h4>
+                                <ul>
+                                    <li><a href="#">Used Jeep</a></li>
+                                    <li><a href="#">Used Kia</a></li>
+                                    <li><a href="#">Used Land Rover</a></li>
+                                    <li><a href="#">Used Mazda</a></li>
+                                </ul>
+                                <a href="#" class="footer-more">More <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item footer-company-info">
+                                <h4>Company Info</h4>
+                                <h6>VAT No. 339834073 <span>|</span> FCA No. 912287 </h6>
+                                <div class="footer-info-text">
+                                    <p>Trade Price Cars Ltd is authorised and regulated by the Financial Conduct Authority, FRN: 912287. All finance is subject to status and income. Written Quotation on request. We act as a credit broker not a lender. We work with a number of carefully selected credit... providers who may be able to offer you finance for your purchase, some of which will pay a commission to us for successful applications. We are only able to offer finance products from these providers.</p>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#" class="footer-more">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div><!-- footer-contact-section ends -->
+                        </div><!-- footer-widget-sction widget-section-two ends -->
+                        
+                        <div class="footer-copyright-section d-flex flex-wrap flex-lg-nowrap justify-content-between">
+                            <div class="footer-copyright-text d-flex align-items-center order-2 order-lg-0">
+                                <p>Copyright &copy; Trade Price Cars . All rights reserved</p>
+                            </div>
+                            <div class="footer-logo text-right">
+                                <span class="ahq">
+                                    Designed &amp; Powered by 
+                                    <img src="img/autohq.png" alt="Car Dealer Websites">
+                                </span>
+                                <!-- Designed & Powered by <img src="img/autohq.png" alt=""> -->
+                            </div>
+                        </div>
+                        <!-- footer-copyright-section ends -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer ends -->
+
+        <a href="#" class="scrollTop d-none d-lg-block"><i class="fa fa-angle-up"></i></a>
+
+        <!--Libraries-->
+        <script src="../theme/js/bootstrap.bundle.min.js"></script>       
+
+         <!--Plugins-->
+         <script src="../theme/js/perfect-scrollbar.jquery.min.js"></script>
+         <script src="../theme/js/jquery.nice-select.min.js"></script>
+         <script src="../theme/js/owl.carousel.min.js"></script>
+         <script src="../theme/js/aos.js"></script>
+         <script src="../theme/js/jqueryUI.js"></script>
+         <script src="../theme/js/jquery.slicknav.min.js"></script>
+         <script src="../theme/js/slick.min.js"></script>
+         <script src="../theme/js/jquery.magnific-popup.min.js"></script>
+         <script src="../theme/js/jquery.sticky.js"></script>
+
+        <!--Active & Custom JS-->
+        <script src="../theme/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,419 @@
+/*===============finance-section-css=================*/ 
+.finance-section-area {
+    padding: 40px 0 40px;
+    @include all-below-med{
+        padding: 30px 0 30px;
+    }
+    .info-icon {
+        border: 1px solid #fff;
+        width: 16px;
+        height: 16px;
+        @extend %displayinline;
+        @extend %textcenter;
+        font-size: 10px;
+        line-height: 16px;
+        @extend %borderradius50;
+        margin-right: 3px;
+        @extend %posrelative;
+        top: -2px;
+        @include all-mx-mobile{
+            width: 14px;
+            height: 14px;
+            font-size: 10px;
+            line-height: 14px;
+            margin-right: 0px;
+            top: 0;
+        }
+    }
+    .finance-text-section {
+        @extend %body-color;
+        margin-bottom: 0;
+        @include all-below-med{
+            margin-bottom: 40px;
+        }
+    }
+    // .finance-calculator-section
+    .finance-calculator-section {
+        @extend %primary-bg-color;
+        padding: 27px 0 24px;
+        @extend %white-color;
+        @extend %uppercase;
+        font-size: 15px;
+        .calculator-heading {
+            font-size: 14px;
+            border-bottom: 1px solid #3A698E;
+            padding-bottom: 15px;
+            margin-bottom: 16px;
+        }
+        .calculator-dropdowns{
+            .single-dropdown {
+                width: 270px;
+                @include mx-desktops{
+                    width: 223px;
+                }
+                @include all-below-med{
+                    width: 49%;
+                    margin-bottom: 15px;
+                }
+                label {
+                    margin: 0 0 12px;
+                    font-weight: 400;
+                    @extend %white-color;
+                    @include all-below-med{
+                        margin-bottom: 6px;
+                    }
+                    @include all-mx-mobile{
+                        font-size: 12px;
+                    }
+                }
+                .nice-select {
+                    @extend %body-color;
+                }
+            }
+        }
+        .calculator-footer {
+            margin-top: 20px;
+            @include all-below-med{
+                margin-top: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+    // .finance-table-section 
+    .finance-table-section {
+        background-color: #F0F8FF;
+        padding: 35px 0 70px;
+        @include all-below-med{
+            padding: 35px 0 30px;
+        }
+        .finance-table-wrap {
+            border: 1px solid #C2D4E3;
+            @extend %white-bg-color;
+            @include all-below-med{
+                margin-bottom: 20px;
+            }
+            // .finance-table-header
+            .finance-table-header {
+                padding: 10px 18px;
+                border-bottom: 1px solid #C2D4E3;
+                @include mx-desktops{
+                    padding: 10px 10px;
+                }
+                @include all-mx-mobile{
+                    flex-wrap: wrap;
+                    padding: 10px 10px;
+                }
+                .table-header-left {
+                    font-size: 14px;
+                    @extend %uppercase;
+                    color: #585858;
+                    @include all-mx-mobile{
+                        margin-bottom: 15px;
+                    }
+                    h4 {
+                        font-size: 15px;
+                        @extend %primary-color;
+                        margin: 0;
+                        @include all-mx-mobile{
+                            font-size: 14px;
+                        }
+                    }
+                    .table-header-text {
+                        border-left: 4px solid;
+                        @extend %primary-border-color;
+                        margin-left: 10px;
+                        padding-left: 10px;
+                        height: 38px;
+                        @include mx-desktops{
+                            margin-left: 5px;
+                            padding-left: 5px;
+                        }
+                    }
+                    .cs-tag {
+                        @extend %primary-bg-color;
+                        @extend %white-color;
+                        @extend %textcenter;
+                        @extend %displayblock;
+                        line-height: 38px;
+                        @extend %uppercase;
+                        @extend %fontweight700;
+                        font-size: 18px;
+                        padding: 0px 8px;
+                    }
+                }
+                .table-header-right {
+                    @extend %primary-color;
+                    @extend %uppercase;
+                    @extend %fontweight700;
+                    font-size: 14px;
+                    @include mx-desktops{
+                        font-size: 12px;
+                    }
+                    i {
+                        width: 16px;
+                        height: 16px;
+                        @extend %secondary-bg-color;
+                        @extend %white-color;
+                        @extend %textcenter;
+                        @extend %borderradius50;
+                        line-height: 16px;
+                        padding-left: 2px;
+                    }
+                }
+                
+            }
+            // .table-striped
+            .table-striped {
+                tbody tr{
+                    &:nth-of-type(odd) {
+                        background: #ffffff;
+                    }
+                    &:nth-of-type(even) {
+                        background: #F2F5F8;
+                    }
+                }
+            }
+            .table {
+                margin: 0;
+                tr {
+                    td {
+                        @extend %borderzero;
+                        font-size: 14px;
+                        @extend %uppercase;
+                        font-weight: 500;
+                        padding: 8px 20px;
+                        @include all-mx-mobile{
+                            padding: 8px 10px;
+                        }
+                        &:nth-child(1) {
+                            @extend %primary-color;
+                        }
+                        &:nth-child(2) {
+                            color: #000000;
+                        }
+                        .info-icon {
+                            @extend %primary-border-color;
+                            @extend %primary-color;
+                        }
+                    }
+                    &:nth-child(1) {
+                        td {
+                            padding-top: 15px;
+                        }
+                    }
+                }
+            }
+            // .finance-video-section
+            .finance-video-section {
+                padding: 35px 20px 26px 20px;
+                @include all-mx-mobile{
+                    padding: 30px 10px 20px 10px;
+                }
+                .boxed-btn {
+                    width: 100%;
+                    padding: 14px 22px;
+                    margin-bottom: 15px;
+                    @include all-mx-mobile{
+                        padding: 10px 10px;
+                    }
+                    i {
+                        font-size: 25px;
+                        margin-right: 3px;
+                        @extend %posrelative;
+                        bottom: -3px;
+                    }
+                }
+                h5 {
+                    font-size: 16px;
+                    @extend %uppercase;
+                    margin-bottom: 25px;
+                    @include all-mx-mobile{
+                        font-size: 14px;
+                    }
+                }
+                .finance-video-wrap{
+                    border: 1px solid #C7C7C7;
+                    padding: 10px;
+                    .finance-video {
+                        @extend %backgroundimage;
+                        height: 300px;
+                        @extend %posrelative;
+                        @include all-below-mobile-lg{
+                            height: 230px;
+                        }
+                        a {
+                            width: 130px;
+                            height: 130px;
+                            background-color: #00000080;
+                            @extend %displayblock;
+                            @extend %textcenter;
+                            color: #ffffff90;
+                            @extend %borderradiusfiftypercent;
+                            font-size: 40px;
+                            line-height: 129px;
+                            padding-left: 10px;
+                            @extend %posabsolute;
+                            left: 0;
+                            top: 50%;
+                            right: 0;
+                            margin: 0 auto;
+                            margin-top: -65px;
+                            @extend %basetransition2;
+                            border: 4px solid #ffffff30;
+                            &:hover {
+                                @extend %primary-bg-color;
+                                border-color: #fff;
+                                @extend %white-color;
+                            }
+                            @include all-below-mobile-lg{
+                                font-size: 30px;
+                                line-height: 100px;
+                                width: 100px;
+                                height: 100px;
+                                margin-top: -50px;
+                            }
+                        }
+                    }
+                }
+                .video-footer {
+                    margin-top: 20px;
+                    @include all-mx-mobile{
+                        font-size: 14px;
+                    }
+                    a {
+                        @extend %primary-color;
+                        @extend %uppercase;
+                        font-weight: 600;
+                        @extend %basetransition1;
+                        &:hover{
+                            @extend %secondary-color;
+                        }
+                        i {
+                            margin-right: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //  .finance-valuation-section
+    .finance-valuation-section {
+        margin-top: 80px;
+        @include all-below-med{
+            margin-top: 40px;
+        }
+        .finance-valuation-content {
+            background-color: #F2F5F8;
+            @extend %borderradius5;
+            padding: 20px 30px;
+            @include all-below-med{
+                padding: 30px 30px;
+            }
+            @include all-below-mobile-lg{
+                padding: 30px 15px;
+            }
+            .finance-valuation-fields {
+                border-bottom: 1px solid #BFC1C3;
+                padding-bottom: 25px;
+                margin-bottom: 25px;
+            }
+            .finance-valuation-text{
+                @include mx-desktops{
+                    h6{
+                        line-height: 1.4;
+                    }
+                }
+                @include all-below-med{
+                    h6{
+                        line-height: 1.4;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .single-valuation-item {
+                h4 {
+                    font-size: 22px;
+                    @extend %primary-color;
+                    @extend %uppercase;
+                    font-weight: 500;
+                    margin: 0 0 12px;
+                    @include mx-desktops{
+                        font-size: 18px;
+                    }
+                    @include all-below-mobile-lg{
+                        font-size: 20px;
+                    }
+                }
+                &.val-title {
+                    width: 390px;
+                    @include mx-desktops{
+                        width: 310px;
+                    }
+                    @include all-below-med{
+                        width: 100%;
+                        margin-bottom: 5px;
+                        text-align: center;
+                    }
+                }
+                &.val-input {
+                    width: 390px;
+                    @include mx-desktops{
+                        width: 350px;
+                    }
+                    @include all-below-med{
+                        width: 65%;
+                    }
+                    @include all-below-mobile-lg{
+                        width: 100%;
+                        margin-bottom: 15px;
+                    }
+                }
+                &.val-btn {
+                    width: 270px;
+                    @include mx-desktops{
+                        width: 210px;
+                    }
+                    @include all-below-med{
+                        width: 35%;
+                    }
+                    @include all-below-mobile-lg{
+                        width: 200px;
+                        margin: 0 auto;
+                        text-align: center;
+                        .float-right{
+                            float: none !important;
+                        }
+                    }
+                }
+                .singel-val-input {
+                    @extend %textcenter;
+                    ::placeholder {
+                        color: #fff;
+                        opacity: 1; 
+                    }
+                    :-ms-input-placeholder {
+                        color: #fff;
+                    }
+                    ::-ms-input-placeholder {
+                        color: #fff;
+                    }
+                    label {
+                        color: #000000;
+                        @extend %uppercase;
+                        font-weight: 600;
+                    }
+                    input[type=text] {
+                        width: 100%;
+                        @extend %primary-bg-color;
+                        @extend %white-color;
+                        @extend %textcenter;
+                        @extend %uppercase;
+                        font-weight: 600;
+                        padding: 13px 15px;
+                        height: 45px;
+                    }
+                }
+            }
+        }
+    }
+}

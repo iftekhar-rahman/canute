@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Favourite</title>
+        
+        <!--Theme specific styles-->
+        <link href="../theme/css/canute.min.css" rel="stylesheet">
+        <link href="css/client.min.css" rel="stylesheet">
+        
+        <!--Core jQuery-->
+        <script src="../theme/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../theme/js/jquery-migrate-1.4.1.min.js"></script>
+    </head>
+    <body>
+
+        <!-- header starts -->
+        <div class="header custom-header">
+            <!-- header-area starts -->
+            <div class="header-area d-flex align-items-end">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                           <div class="header-content d-flex d-flex justify-content-center justify-content-lg-between">
+                                <div class="site-logo d-flex align-items-center order-2 order-lg-0">
+                                    <a href="index.html">
+										<img src="img/logo.png" alt="">
+									</a>
+                                </div> 
+                                <div class="header-right d-flex align-items-center">
+                                    <div class="header-single-item header-social-icons d-none d-lg-block">
+                                        <h6>Follow Us</h6>
+                                        <div class="social-icons">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-instagram"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="header-single-item header-address position-relative d-none d-lg-block">
+                                        <span class="header-icon"><i class="fa fa-heart-o"></i></span>
+                                        <h6>Favourites</h6>
+                                        <h5>items ( 0 )</h5>
+                                    </div>
+                                    <div class="header-single-item header-phone position-relative">
+                                        <a href="tel:01268766722" class="float-right position-relative">
+                                            <span class="header-icon"><i class="fa fa-phone"></i></span>
+                                            <h6 class="d-none d-lg-block">Call Us</h6>
+                                            <h5 class="d-none d-lg-block">01268 766722</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- header-area ends -->
+
+            <!-- mainmenu-area starts -->
+            <div class="mainmenu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mainmenu text-center position-relative">
+                                <div class="small-logo d-flex align-items-center">
+                                    <div class="small-logo-inner">
+                                        <a href="#"><img src="img/logo.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <ul id="menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Browse cars <i class="fa fa-angle-down"></i></a>
+                                        <ul>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a>
+                                                <ul>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Used Vans <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">Finance <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">Valuation <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">Protection <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">BTCC</a></li>
+                                    <li><a href="#">About</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- mainmenu-area ends -->
+        </div>
+        <!-- header ends -->
+
+        <div class="spacer d-block d-lg-none"></div>
+
+        <div class="fav-title-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section-title text-center">
+                            <h4>Browse favourites cars</h4>
+                            <h2>Compare Your Favourites</h2>
+                        </div>
+						<div class="fav-text">
+                            <p>Easily compare the spec of your chosen models. If you need any help don't hesiate to <a href="#">contact us</a> as we are always pleased to advise.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- favourites-content starts -->
+        <div class="featured-car-area favourites-content position-relative">
+            <div class="favourites-content-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="owl-carousel favourite-cars-wrap">
+                                <!-- single-favourite-item starts -->
+    
+                                <div class="single-featured-item">
+                                    <a href="#" class="car-photo overflow-hidden">
+                                        <img src="img/1.jpg" alt="">
+                                    </a>
+                                    <a title="Add to favourites" href="#" class="heart-icon"><i class="fa fa-heart"></i></a>
+                                    <div class="featured-content">
+                                        <div class="featured-car-content">
+                                            <h5>BMW 3 SERIES Car 1</h5>
+                                            <h6>2.0 320I XDRIVE M SPORT TOURING 5d 181 BHP</h6>
+                                        </div>
+                                        <div class="featured-car-price-wrap d-flex">
+                                            <div class="featured-car-price-left">
+                                                <h4>£8,350</h4>
+                                                <p>+£149 buyers fee</p>
+                                            </div>
+                                            <div class="featured-car-price-right">
+                                                <h4>£158 <span>p/m</span></h4>
+                                                <p>Finance from</p>
+                                            </div>
+                                        </div>
+                                        <div class="vehicle-listing-summary text-center">
+                                            <span>Estate</span>
+                                            <span>Petrol</span>
+                                            <span>Automatic</span>
+                                        </div>
+                                        <div class="vehicle-listing-info">
+                                            <table>
+                                                <tr>
+                                                    <td>Mileage:</td>
+                                                    <td><strong>29426 Miles</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Engine size:</td>
+                                                    <td><strong>2L</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>MPG (Avg):</td>
+                                                    <td><strong>43.5</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Year:</td>
+                                                    <td><strong>13/01/2017</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Colour:</td>
+                                                    <td><strong>Silver</strong></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="group-buttons ml-2 mr-2 text-center">
+                                            <a href="#" class="boxed-btn">Finance Options</a>
+                                            <a href="#" class="boxed-btn">View Details</a>
+                                        </div>
+                                    </div>
+                                </div><!-- single-favourite-item ends -->
+                                <!-- single-favourite-item starts -->
+                                <div class="single-featured-item">
+                                    <a href="#" class="car-photo overflow-hidden">
+                                        <img src="img/1.jpg" alt="">
+                                    </a>
+                                    <a title="Add to favourites" href="#" class="heart-icon"><i class="fa fa-heart"></i></a>
+                                    <div class="featured-content">
+                                        <div class="featured-car-content">
+                                            <h5>BMW 3 SERIES Car 2</h5>
+                                            <h6>2.0 320I XDRIVE M SPORT TOURING 5d 181 BHP</h6>
+                                        </div>
+                                        <div class="featured-car-price-wrap d-flex">
+                                            <div class="featured-car-price-left">
+                                                <h4>£8,350</h4>
+                                                <p>+£149 buyers fee</p>
+                                            </div>
+                                            <div class="featured-car-price-right">
+                                                <h4>£158 <span>p/m</span></h4>
+                                                <p>Finance from</p>
+                                            </div>
+                                        </div>
+                                        <div class="vehicle-listing-summary text-center">
+                                            <span>Estate</span>
+                                            <span>Petrol</span>
+                                            <span>Automatic</span>
+                                        </div>
+                                        <div class="vehicle-listing-info">
+                                            <table>
+                                                <tr>
+                                                    <td>Mileage:</td>
+                                                    <td><strong>29426 Miles</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Engine size:</td>
+                                                    <td><strong>2L</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>MPG (Avg):</td>
+                                                    <td><strong>43.5</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Year:</td>
+                                                    <td><strong>13/01/2017</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Colour:</td>
+                                                    <td><strong>Silver</strong></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="group-buttons ml-2 mr-2 text-center">
+                                            <a href="#" class="boxed-btn">Finance Options</a>
+                                            <a href="#" class="boxed-btn">View Details</a>
+                                        </div>
+                                    </div>
+                                </div><!-- single-favourite-item ends -->
+                                <!-- single-favourite-item starts -->
+                                <div class="single-featured-item">
+                                    <a href="#" class="car-photo overflow-hidden">
+                                        <img src="img/1.jpg" alt="">
+                                    </a>
+                                    <a title="Add to favourites" href="#" class="heart-icon"><i class="fa fa-heart"></i></a>
+                                    <div class="featured-content">
+                                        <div class="featured-car-content">
+                                            <h5>BMW 3 SERIES Car 2</h5>
+                                            <h6>2.0 320I XDRIVE M SPORT TOURING 5d 181 BHP</h6>
+                                        </div>
+                                        <div class="featured-car-price-wrap d-flex">
+                                            <div class="featured-car-price-left">
+                                                <h4>£8,350</h4>
+                                                <p>+£149 buyers fee</p>
+                                            </div>
+                                            <div class="featured-car-price-right">
+                                                <h4>£158 <span>p/m</span></h4>
+                                                <p>Finance from</p>
+                                            </div>
+                                        </div>
+                                        <div class="vehicle-listing-summary text-center">
+                                            <span>Estate</span>
+                                            <span>Petrol</span>
+                                            <span>Automatic</span>
+                                        </div>
+                                        <div class="vehicle-listing-info">
+                                            <table>
+                                                <tr>
+                                                    <td>Mileage:</td>
+                                                    <td><strong>29426 Miles</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Engine size:</td>
+                                                    <td><strong>2L</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>MPG (Avg):</td>
+                                                    <td><strong>43.5</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Year:</td>
+                                                    <td><strong>13/01/2017</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Colour:</td>
+                                                    <td><strong>Silver</strong></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="group-buttons ml-2 mr-2 text-center">
+                                            <a href="#" class="boxed-btn">Finance Options</a>
+                                            <a href="#" class="boxed-btn">View Details</a>
+                                        </div>
+                                    </div>
+                                </div><!-- single-favourite-item ends -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- favourites-content ends -->
+
+        <!-- footer starts -->
+        <div class="footer">
+            <div class="container">
+                <div class="position-relative">
+                    <div class="section-shape text-center">
+                        <!-- Shape SVG starts -->
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="713px"
+                            height="101px" viewBox="0 0 713 101" enable-background="new 0 0 713 101" xml:space="preserve">
+                        <g id="Layer_1" display="none">
+                        </g>
+                        <g id="Layer_2">
+                            <g>
+                                <defs>
+                                    <rect id="SVGID_1_" width="713" height="101"/>
+                                </defs>
+                                <clipPath id="SVGID_2_">
+                                    <use xlink:href="#SVGID_1_"  overflow="visible"/>
+                                </clipPath>
+                                <g id="shape.psd" clip-path="url(#SVGID_2_)">
+                                    <defs>
+                                        <rect id="SVGID_3_" x="-228.758" y="8" width="1169.997" height="153"/>
+                                    </defs>
+                                    <clipPath id="SVGID_4_">
+                                        <use xlink:href="#SVGID_3_"  overflow="visible"/>
+                                    </clipPath>
+                                    <g id="WebsiteBg" clip-path="url(#SVGID_4_)">
+                                        <g>
+                                            <path fill="#20274D" d="M726.93,100.946C606.578,100.946,628.356,8,519.551,8C483.57,8,271.857,8,192.93,8
+                                                c-108.806,0-87.028,92.946-207.379,92.946c-120.352,0-214.309,0-214.309,0V161H941.239v-60.054
+                                                C941.239,100.946,847.282,100.946,726.93,100.946z"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        </svg><!-- Shape SVG ends -->
+                        <div class="section-title text-center">
+                            <h2>Stock Updates</h2>
+                            <p>Enter your details to receive new notifications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- subscription-form-section starts -->
+                        <div class="subscription-form-section">
+                            <div class="subscription-form position-relative">
+                                <i class="fa fa-envelope-o"></i>
+                                <input type="email" placeholder="Enter Email Address" name="emailsubscription">
+                                <button class="boxed-btn" type="submit" value="submit">Subscribe</button>
+                            </div>
+                        </div><!-- subscription-form-section ends -->
+                        <!-- footer-widget-sction widget-section-one starts -->
+                        <div class="footer-widget-sction widget-section-one d-flex flex-wrap flex-lg-nowrap">
+                            <div class="single-footer-widget-item quick-links1">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Finance</a></li>
+                                    <li><a href="#">Valuation</a></li>
+                                    <li><a href="#">Protection</a></li>
+                                    <li><a href="#">BTCC</a></li>
+                                    <li><a href="#">About</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item quick-links2">
+                                <h4>Help & Support</h4>
+                                <ul>
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Cookies</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Complaints</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item footer-contact-section">
+                                <h4>Get In Touch</h4>
+                                <div class="d-flex align-items-start justify-content-between">
+                                    <div class="footer-address position-relative">
+                                        <i class="fa fa-map-marker"></i>
+                                        <p>Vanhurst Industrial Estate,<br> Woodham Road,<br> Battlesbridge, Wickford,<br> Essex SS11 7QY</p>
+                                    </div>
+                                    <div class="single-footer-contact footer-phone-contact position-relative">
+                                        <h6>Call US</h6>
+                                        <a href="tel:01268766722"><i class="fa fa-phone"></i>01268 766722</a>
+                                    </div>
+                                </div>
+                                <div class="footer-contact">
+                                    <div class="single-footer-contact position-relative">
+                                        <i class="fa fa-envelope-o"></i>
+                                        <h6>Email US</h6>
+                                        <a href="mailto:info@tradepricecars.com">info@tradepricecars.com</a>
+                                    </div>
+                                </div>
+                                <div class="footer-social-icons">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div><!-- footer-contact-section ends -->
+                        </div><!-- footer-widget-sction widget-section-one ends -->
+
+                        <!-- footer-widget-sction widget-section-two starts -->
+                        <div class="footer-widget-sction widget-section-two d-flex flex-wrap flex-lg-nowrap">
+                            <div class="single-footer-widget-item browse-cars-one">
+                                <h4>Browse Cars</h4>
+                                <ul>
+                                    <li><a href="#">Used Audi</a></li>
+                                    <li><a href="#">Used BMW</a></li>
+                                    <li><a href="#">Used Citroen</a></li>
+                                    <li><a href="#">Used Dacia</a></li>
+                                    <li><a href="#">Used Dodge</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item browse-cars-two">
+                                <h4 style="opacity:0">empty title</h4>
+                                <ul>
+                                    <li><a href="#">Used Fiat</a></li>
+                                    <li><a href="#">Used Ford</a></li>
+                                    <li><a href="#">Used Honda</a></li>
+                                    <li><a href="#">Used Hyundai</a></li>
+                                    <li><a href="#">Used Jaguar</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item browse-cars-three">
+                                <h4 style="opacity:0">empty title</h4>
+                                <ul>
+                                    <li><a href="#">Used Jeep</a></li>
+                                    <li><a href="#">Used Kia</a></li>
+                                    <li><a href="#">Used Land Rover</a></li>
+                                    <li><a href="#">Used Mazda</a></li>
+                                </ul>
+                                <a href="#" class="footer-more">More <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item footer-company-info">
+                                <h4>Company Info</h4>
+                                <h6>VAT No. 339834073 <span>|</span> FCA No. 912287 </h6>
+                                <div class="footer-info-text">
+                                    <p>Trade Price Cars Ltd is authorised and regulated by the Financial Conduct Authority, FRN: 912287. All finance is subject to status and income. Written Quotation on request. We act as a credit broker not a lender. We work with a number of carefully selected credit... providers who may be able to offer you finance for your purchase, some of which will pay a commission to us for successful applications. We are only able to offer finance products from these providers.</p>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#" class="footer-more">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div><!-- footer-contact-section ends -->
+                        </div><!-- footer-widget-sction widget-section-two ends -->
+                        
+                        <div class="footer-copyright-section d-flex flex-wrap flex-lg-nowrap justify-content-between">
+                            <div class="footer-copyright-text d-flex align-items-center order-2 order-lg-0">
+                                <p>Copyright &copy; Trade Price Cars . All rights reserved</p>
+                            </div>
+                            <div class="footer-logo text-right">
+                                <span class="ahq">
+                                    Designed &amp; Powered by 
+                                    <img src="img/autohq.png" alt="Car Dealer Websites">
+                                </span>
+                                <!-- Designed & Powered by <img src="img/autohq.png" alt=""> -->
+                            </div>
+                        </div>
+                        <!-- footer-copyright-section ends -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer ends -->
+
+        <a href="#" class="scrollTop d-none d-lg-block"><i class="fa fa-angle-up"></i></a>
+
+        <!--Libraries-->
+        <script src="../theme/js/bootstrap.bundle.min.js"></script>       
+
+         <!--Plugins-->
+         <script src="../theme/js/perfect-scrollbar.jquery.min.js"></script>
+         <script src="../theme/js/jquery.nice-select.min.js"></script>
+         <script src="../theme/js/owl.carousel.min.js"></script>
+         <script src="../theme/js/aos.js"></script>
+         <script src="../theme/js/jqueryUI.js"></script>
+         <script src="../theme/js/jquery.slicknav.min.js"></script>
+         <script src="../theme/js/slick.min.js"></script>
+         <script src="../theme/js/jquery.magnific-popup.min.js"></script>
+         <script src="../theme/js/jquery.sticky.js"></script>
+
+        <!--Active & Custom JS-->
+        <script src="../theme/js/main.js"></script>
+    </body>
+</html>

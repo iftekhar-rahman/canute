@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>CarDetails</title>
+        
+        <!--Theme specific styles-->
+        <link href="../theme/css/canute.min.css" rel="stylesheet">
+        <link href="css/client.min.css" rel="stylesheet">
+        
+        <!--Core jQuery-->
+        <script src="../theme/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../theme/js/jquery-migrate-1.4.1.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target="#sub-navbar" data-offset="180">
+
+        <!-- header starts -->
+        <div class="header custom-header">
+            <!-- header-area starts -->
+            <div class="header-area d-flex align-items-end">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                           <div class="header-content d-flex d-flex justify-content-center justify-content-lg-between">
+                                <div class="site-logo d-flex align-items-center order-2 order-lg-0">
+                                    <a href="index.html">
+										<img src="img/logo.png" alt="">
+									</a>
+                                </div> 
+                                <div class="header-right d-flex align-items-center">
+                                    <div class="header-single-item header-social-icons d-none d-lg-block">
+                                        <h6>Follow Us</h6>
+                                        <div class="social-icons">
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                            <a href="#"><i class="fa fa-instagram"></i></a>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="header-single-item header-address position-relative d-none d-lg-block">
+                                        <span class="header-icon"><i class="fa fa-heart-o"></i></span>
+                                        <h6>Favourites</h6>
+                                        <h5>items ( 0 )</h5>
+                                    </div>
+                                    <div class="header-single-item header-phone position-relative">
+                                        <a href="tel:01268766722" class="float-right position-relative">
+                                            <span class="header-icon"><i class="fa fa-phone"></i></span>
+                                            <h6 class="d-none d-lg-block">Call Us</h6>
+                                            <h5 class="d-none d-lg-block">01268 766722</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- header-area ends -->
+
+            <!-- mainmenu-area starts -->
+            <div class="mainmenu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mainmenu text-center position-relative">
+                                <ul id="menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Browse cars <i class="fa fa-angle-down"></i></a>
+                                        <ul>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a>
+                                                <ul>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                    <li><a href="#">Dropdown Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                            <li><a href="#">Dropdown Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Used Vans <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">Finance <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">Valuation <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">Protection <i class="fa fa-angle-down"></i></a></li>
+                                    <li><a href="#">BTCC</a></li>
+                                    <li><a href="#">About</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- mainmenu-area ends -->
+        </div>
+        <!-- header ends -->
+
+        <div class="spacer d-block d-lg-none"></div>
+
+        <!-- alert-message-section starts || css in header.scss-->
+		<!--
+        <div class="alert-message-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <p>Please note we will close Christmas Eve at 1pm and reopen on Friday 27th. See our full <a href="#">Xmas opening hours</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+		-->
+        <!-- alert-message-section ends -->
+
+        <!-- breadcrumb-area starts -->
+        <div class="breadcrumb-area d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Used Cars</a></li>
+                            <li><a href="#">Mercedes</a></li>
+                            <li>Gla-class Gla 200 D Amg Line Premium</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- breadcrumb-area ends -->
+
+        <!-- .car-details-area starts -->
+        <div class="car-details-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="car-details-content">
+                            <div class="d-block d-lg-flex">
+                                <!-- slick-slider-wrap starts -->
+                                <div class="slick-slider-wrap">
+                                    <div class="slider">
+                                        <div class="single-car-item position-relative">
+                                            <picture>
+                                                <!-- <source media="(min-width: 1200px)" srcset="img/cars/545x409.jpg">
+                                                <source media="(min-width: 992px)" srcset="img/cars/462x347.jpg"> -->
+                                                <img src="img/cars/3x2.jpg" alt="" style="width:auto;">
+                                                <a class="popup-link" href="img/cars/3x2.jpg"><i class="fa fa-search"></i></a>
+                                            </picture>
+                                            <span class="viewed-number">
+                                                This car have been viewed x times today
+                                            </span>
+                                            <a title="Add to favourites" href="#" class="heart-icon"><i class="fa fa-heart"></i></a>
+                                        </div>
+                                        <div class="single-car-item position-relative">
+                                            <picture>
+                                                <!-- <source media="(min-width: 1200px)" srcset="img/cars/545x409.jpg">
+                                                <source media="(min-width: 992px)" srcset="img/cars/462x347.jpg"> -->
+                                                <img src="img/cars/3x2.jpg" alt="" style="width:auto;">
+                                                <a class="popup-link" href="img/cars/3x2.jpg"><i class="fa fa-search"></i></a>
+                                            </picture>
+                                            <span class="viewed-number">
+                                                This car have been viewed x times today
+                                            </span>
+                                            <a title="Add to favourites" href="#" class="heart-icon"><i class="fa fa-heart"></i></a>
+                                        </div>
+                                        <div class="single-car-item position-relative">
+                                            <picture>
+                                                <!-- <source media="(min-width: 1200px)" srcset="img/cars/545x409.jpg">
+                                                <source media="(min-width: 992px)" srcset="img/cars/462x347.jpg"> -->
+                                                <img src="img/cars/3x2.jpg" alt="" style="width:auto;">
+                                                <a class="popup-link" href="img/cars/3x2.jpg"><i class="fa fa-search"></i></a>
+                                            </picture>
+                                            <span class="viewed-number">
+                                                This car have been viewed x times today
+                                            </span>
+                                            <a title="Add to favourites" href="#" class="heart-icon"><i class="fa fa-heart"></i></a>
+                                        </div>
+                                        <div class="single-car-item position-relative">
+                                            <picture>
+                                                <!-- <source media="(min-width: 1200px)" srcset="img/cars/545x409.jpg">
+                                                <source media="(min-width: 992px)" srcset="img/cars/462x347.jpg"> -->
+                                                <img src="img/cars/3x2.jpg" alt="" style="width:auto;">
+                                                <a class="popup-link" href="img/cars/3x2.jpg"><i class="fa fa-search"></i></a>
+                                            </picture>
+                                            <span class="viewed-number">
+                                                This car have been viewed x times today
+                                            </span>
+                                            <a title="Add to favourites" href="#" class="heart-icon"><i class="fa fa-heart"></i></a>
+                                        </div>
+                                        <div class="single-car-item position-relative">
+                                            <picture>
+                                                <!-- <source media="(min-width: 1200px)" srcset="img/cars/545x409.jpg">
+                                                <source media="(min-width: 992px)" srcset="img/cars/462x347.jpg"> -->
+                                                <img src="img/cars/3x2.jpg" alt="" style="width:auto;">
+                                                <a class="popup-link" href="img/cars/3x2.jpg"><i class="fa fa-search"></i></a>
+                                            </picture>
+                                            <span class="viewed-number">
+                                                This car have been viewed x times today
+                                            </span>
+                                            <a title="Add to favourites" href="#" class="heart-icon"><i class="fa fa-heart"></i></a>
+                                        </div>
+                                        <div class="single-car-item position-relative">
+                                            <picture>
+                                                <!-- <source media="(min-width: 1200px)" srcset="img/cars/545x409.jpg">
+                                                <source media="(min-width: 992px)" srcset="img/cars/462x347.jpg"> -->
+                                                <img src="img/cars/3x2.jpg" alt="" style="width:auto;">
+                                                <a class="popup-link" href="img/cars/3x2.jpg"><i class="fa fa-search"></i></a>
+                                            </picture>
+                                            <span class="viewed-number">
+                                                This car have been viewed x times today
+                                            </span>
+                                            <a title="Add to favourites" href="#" class="heart-icon"><i class="fa fa-heart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="slider-nav-thumbnails">
+                                        <div class="single-car-item">
+                                            <img src="img/cars/3x2.jpg" alt="One">
+                                        </div>
+                                        <div class="single-car-item">
+                                            <img src="img/cars/3x2.jpg" alt="Two">
+                                        </div>
+                                        <div class="single-car-item">
+                                            <img src="img/cars/3x2.jpg" alt="Three">
+                                        </div>
+                                        <div class="single-car-item">
+                                            <img src="img/cars/3x2.jpg" alt="Four">
+                                        </div>
+                                        <div class="single-car-item">
+                                            <img src="img/cars/3x2.jpg" alt="Five">
+                                        </div>
+                                        <div class="single-car-item">
+                                            <img src="img/cars/3x2.jpg" alt="Six">
+                                        </div>
+                                    </div>
+                                </div><!-- slick-slider-wrap ends -->
+                                <!-- car-details starts -->
+                                <div class="car-details d-flex flex-column justify-content-between">
+                                    <div class="details-top-content">
+                                        <div class="car-title-wrap position-relative">
+                                            <div class="car-title mb-4 pb-3">
+                                                <h3>Mercedes </h3>
+                                                <p>Gla-class Gla 200 D Amg Line Premium </p>
+                                            </div>
+                                            <div class="mercedes-logo text-right">
+                                                <img src="img/mercedes-logo.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="car-text mb-4">
+                                            <h4 class="mb-3">Premium Pack & 18" AMG Alloys</h4>
+                                            <ul>
+                                                <li><i class="fa fa-dot-circle-o"></i> Mercedes-Benz GLA 200d Amg Premium Pack</li>
+                                                <li><i class="fa fa-dot-circle-o"></i> Mercedes-Benz GLA 200d Amg Premium Pack</li>
+                                                <li><i class="fa fa-dot-circle-o"></i> Mercedes-Benz GLA 200d Amg Premium Pack</li>
+                                                <li><i class="fa fa-dot-circle-o"></i> Mercedes-Benz GLA 200d Amg Premium Pack</li>
+                                                <li><i class="fa fa-dot-circle-o"></i> Mercedes-Benz GLA 200d Amg Premium Pack</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="details-bottom-content">
+                                        <div class="price-per-month">
+                                            <div class="price-wrap">
+                                                <span class="car-price">£17,495 </span>
+                                                <div class="d-flex align-items-end">
+                                                    <span>From</span>
+                                                    <span class="monthly-cost">£1,597</span>
+                                                    <span>Per Month</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="details-btns mt-4 d-flex d-md-block">
+                                            <a class="boxed-btn" href="#">Apply Now</a>
+                                            <a class="boxed-btn enquire-btn" href="#">Enquire</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- car-details ends -->
+                            </div>
+                            <div class="car-details-bottom d-flex flex-column flex-lg-row justify-content-between align-items-center">
+                                <div class="share-section order-1 order-lg-0 d-flex d-sm-block">
+                                    <a href="#"><i class="fa fa-share-alt"></i> Share</a>
+                                    <a href="#"><i class="fa fa-print"></i> Print</a>
+                                    <a href="#"><i class="fa fa-heart"></i> favourite</a>
+                                </div>
+                                <!-- car-details-features icons starts -->
+                                <div class="car-details-features d-flex order-0 order-lg-1">
+                                    <div class="single-car-details-feature d-flex align-items-end text-center">
+                                        <span>
+                                            <span class="dfeature-icon d-block">
+                                                <img src="./img/icons/body.svg" alt="">
+                                            </span>
+                                            <span>Estate</span>
+                                        </span>
+                                    </div>
+                                    <div class="single-car-details-feature d-flex align-items-end text-center">
+                                        <span>
+                                            <span class="dfeature-icon d-block">
+                                                <img src="./img/icons/gears.svg" alt="">
+                                            </span>
+                                            <span>Automatic</span>
+                                        </span>
+                                    </div>
+                                    <div class="single-car-details-feature d-flex align-items-end text-center">
+                                        <span>
+                                            <span class="dfeature-icon d-block">
+                                                <img src="./img/icons/fuel.svg" alt="">
+                                            </span>
+                                            <span>Diesel</span>
+                                        </span>
+                                    </div>
+                                    <div class="single-car-details-feature d-flex align-items-end text-center">
+                                        <span>
+                                            <span class="dfeature-icon d-block">
+                                                <img src="./img/icons/calendar.svg" alt="">
+                                            </span>
+                                            <span>2016</span>
+                                        </span>
+                                    </div>
+                                    <div class="single-car-details-feature d-flex align-items-end text-center">
+                                        <span>
+                                            <span class="dfeature-icon d-block">
+                                                <img src="./img/icons/engine.svg" alt="">
+                                            </span>
+                                            <span>2.2L</span>
+                                        </span>
+                                    </div>
+                                    <div class="single-car-details-feature d-flex align-items-end text-center">
+                                        <span>
+                                            <span class="dfeature-icon d-block">
+                                                <img src="./img/icons/bhp.svg" alt="">
+                                            </span>
+                                            <span>134 bhp</span>
+                                        </span>
+                                    </div>
+                                    <div class="single-car-details-feature d-flex align-items-end text-center">
+                                        <span>
+                                            <span class="dfeature-icon d-block">
+                                                <img src="./img/icons/bhp.svg" alt="">
+                                            </span>
+                                            <span>32k miles</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- car-details-features icons ends -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .car-details-area ends -->
+
+        <!-- reserve-area starts -->
+        <div class="reserve-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="reserve-content d-flex flex-wrap flex-md-nowrap">
+                            <div class="single-reserve-item reserve-one d-flex align-items-center order-1 order-md-0">
+                                <span><img src="img/reserve-icon-1.png" alt=""></span>
+                                <span class="laptop"><img src="img/reserve-icon-2.png" alt=""></span>
+                                <h3><strong>Reserve</strong> Online</h3>
+                            </div>
+                            <div class="single-reserve-item reserve-two d-flex justify-content-between">
+                                <div class="single-step">
+                                    <span>Step 1</span>
+                                    <span class="step-one">
+                                        <span><img src="img/reserve-icon-3.png" alt=""></span>
+                                    </span>
+                                    <span>Reserve</span>
+                                </div>
+                                <div class="single-step">
+                                    <span>Step 2</span>
+                                    <span class="step-one">
+                                        <span><img src="img/reserve-icon-4.png" alt=""></span>
+                                    </span>
+                                    <span>Drive</span>
+                                </div>
+                                <div class="single-step">
+                                    <span>Step 3</span>
+                                    <span class="step-one">
+                                        <span><img src="img/reserve-icon-5.png" alt=""></span>
+                                    </span>
+                                    <span>Buy</span>
+                                </div>
+                            </div>
+                            <div class="single-reserve-item reserve-three d-flex justify-content-end align-items-center">
+                                <a href="#" class="boxed-btn">Reserve Online</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- reserve-area ends -->
+
+        <!-- submenu-area starts -->
+        <div id="finanace" class="submenu-area">
+            <div class="container">
+                <div class="row">
+                    <div id="sub-navbar" class="col-lg-12">
+                        <ul>
+                            <li class="smooth-menu list-one"><a class="nav-link active" href="#finance_section">Finance</a></li>
+                            <li class="smooth-menu"><a class="nav-link" href="#specification_section">Vehicle Specification</a></li>
+                            <li class="smooth-menu"><a class="nav-link" href="#testimonial_section">Customer Reviews</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- submenu-area starts -->
+
+        <!-- finance-area starts -->
+        <div id="finance_section" class="finance-section-area">
+            <!-- finance-text-section starts -->
+            <div class="finance-text-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1 text-center">
+                            <div class="section-title">
+                                <h2>Finance Calculator</h2>
+                            </div>
+                            <p>Our flexible finance options are quick and convenient. You can shop and finance directly from this website, where we have detailed information about the finance options that are available. Use this finance calculator to find the perfect agreement to meet your budget.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- finance-text-section ends -->
+            <!-- finance-calculator-section starts -->
+            <div class="finance-calculator-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="calculator-heading text-center">
+                                <p>You can adjust the options below to tailor a quote to suit your individual needs.</p>
+                            </div>
+                            <div class="calculator-dropdowns d-flex flex-wrap flex-lg-nowrap justify-content-between">
+                                <div class="single-dropdown">
+                                    <label for="month"><span class="info-icon"><i class="fa fa-info"></i></span> Term (months)</label>
+                                    <select name="month" id="month">
+                                        <option value="48">48</option>
+                                        <option value="34">34</option>
+                                        <option value="87">87</option>
+                                        <option value="23">23</option>
+                                        <option value="45">45</option>
+                                        <option value="43">43</option>
+                                        <option value="65">65</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                        <option value="67">67</option>
+                                    </select>
+                                </div>
+                                <div class="single-dropdown">
+                                    <label for="mileage"><span class="info-icon"><i class="fa fa-info"></i></span> Annual Mileage</label>
+                                    <select name="mileage" id="mileage">
+                                        <option value="10,000">10,000</option>
+                                        <option value="15,000">15,000</option>
+                                        <option value="20,000">20,000</option>
+                                        <option value="25,000">25,000</option>
+                                        <option value="30,000">30,000</option>
+                                    </select>
+                                </div>
+                                <div class="single-dropdown">
+                                    <label for="payment"><span class="info-icon"><i class="fa fa-info"></i></span> Your Monthly Payment</label>
+                                    <select name="payment" id="payment">
+                                        <option value="£500">£500</option>
+                                        <option value="£600">£600</option>
+                                        <option value="£700">£700</option>
+                                        <option value="£800">£800</option>
+                                        <option value="£900">£900</option>
+                                        <option value="£1000">£1000</option>
+                                    </select>
+                                </div>
+                                <div class="single-dropdown">
+                                    <label for="deposit"><span class="info-icon"><i class="fa fa-info"></i></span> Your Deposit</label>
+                                    <select name="deposit" id="deposit">
+                                        <option value="£17855">£17855</option>
+                                        <option value="£27855">£27855</option>
+                                        <option value="£47855">£47855</option>
+                                        <option value="£57855">£57855</option>
+                                        <option value="£67855">£67855</option>
+                                        <option value="£37855">£37855</option>
+                                        <option value="£37855">£37855</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="calculator-footer text-center">
+                                <p>Each time you change the options above, the quote below will recalculate for you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- finance-calculator-section ends -->
+            <!-- finance-table-section starts -->
+            <div class="finance-table-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- finance-table-wrap starts -->
+                            <div class="finance-table-wrap">
+                                <div class="finance-table-header d-flex align-items-center justify-content-between">
+                                    <div class="table-header-left d-flex align-items-center">
+                                        <span class="cs-tag">cs</span>
+                                        <div class="table-header-text">
+                                            <h4>Conditional Sale</h4>
+                                            <p>Representative Example</p>
+                                        </div>
+                                    </div>
+                                    <div class="table-header-right">
+                                        <i class="fa fa-caret-right"></i> What is cs?
+                                    </div>
+                                </div>
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Term</td>
+                                            <td>48 Months</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> First Payment</td>
+                                            <td>£402.25</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> 46 Monthly Payments</td>
+                                            <td>£402.25</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Final Payment</td>
+                                            <td>£402.25</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Cash Price</td>
+                                            <td>£17,495.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Cash Deposit</td>
+                                            <td>£1,749.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Total Deposit</td>
+                                            <td>£1,749.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Amount of Credit</td>
+                                            <td>£15,745.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Total Charge for Credit</td>
+                                            <td>£3,562.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Total Amount Payable</td>
+                                            <td>£21,057.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Admin Fee</td>
+                                            <td>£340.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Option to Purchase Fee</td>
+                                            <td>£10.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> A.P.R. Representative</td>
+                                            <td>10.9% A.P.R.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Rate of Interest (fixed)</td>
+                                            <td>4.99%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="finance-video-section">
+                                    <a href="#" class="boxed-btn"><i class="fa fa-check-circle-o"></i> Apply For CS Finance</a>
+                                    <h5>Find out more about Conditional Sale</h5>
+                                    <div class="finance-video-wrap">
+                                        <div class="finance-video" style="background-image: url(./img/video-image-1.jpg);">
+                                            <a href="https://www.youtube.com/watch?v=XrIrLshAtlk" class="video-btn">
+                                                <i class="fa fa-play"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="video-footer d-flex justify-content-between">
+                                        <a href="mailto:example@example.com"><i class="fa fa-envelope"></i> Email CS Quote</a>
+                                        <a href="#"><i class="fa fa-print"></i> Print CS Quote</a>
+                                    </div>
+                                </div>
+                            </div><!-- finance-table-wrap ends -->
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- finance-table-wrap starts -->
+                            <div class="finance-table-wrap">
+                                <div class="finance-table-header d-flex align-items-center justify-content-between">
+                                    <div class="table-header-left d-flex align-items-center">
+                                        <span class="cs-tag">pcp</span>
+                                        <div class="table-header-text">
+                                            <h4>Personal Contract Purchase</h4>
+                                            <p>Representative Example</p>
+                                        </div>
+                                    </div>
+                                    <div class="table-header-right">
+                                        <i class="fa fa-caret-right"></i> What is pcp?
+                                    </div>
+                                </div>
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Term</td>
+                                            <td>48 Months</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> First Payment</td>
+                                            <td>£402.25</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> 46 Monthly Payments</td>
+                                            <td>£402.25</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Final Payment</td>
+                                            <td>£402.25</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Cash Price</td>
+                                            <td>£17,495.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Cash Deposit</td>
+                                            <td>£1,749.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Total Deposit</td>
+                                            <td>£1,749.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Amount of Credit</td>
+                                            <td>£15,745.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Total Charge for Credit</td>
+                                            <td>£3,562.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Total Amount Payable</td>
+                                            <td>£21,057.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Admin Fee</td>
+                                            <td>£340.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Option to Purchase Fee</td>
+                                            <td>£10.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> A.P.R. Representative</td>
+                                            <td>10.9% A.P.R.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="info-icon"><i class="fa fa-info"></i></span> Rate of Interest (fixed)</td>
+                                            <td>4.99%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="finance-video-section">
+                                    <a href="#" class="boxed-btn"><i class="fa fa-check-circle-o"></i> Apply For PCP Finance</a>
+                                    <h5>Find out more about PCP</h5>
+                                    <div class="finance-video-wrap">
+                                        <div class="finance-video" style="background-image: url(./img/video-image-1.jpg);">
+                                            <a href="https://www.youtube.com/watch?v=XrIrLshAtlk" class="video-btn">
+                                                <i class="fa fa-play"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="video-footer d-flex justify-content-between">
+                                        <a href="mailto:example@example.com"><i class="fa fa-envelope"></i> Email PCP Quote</a>
+                                        <a href="#"><i class="fa fa-print"></i> Print PCP Quote </a>
+                                    </div>
+                                </div>
+                            </div><!-- finance-table-wrap ends -->
+                        </div>
+                    </div>
+                </div>
+            </div><!-- finance-table-section ends -->
+            <!-- finance-valuation-section starts -->
+            <div class="finance-valuation-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="finance-valuation-content">
+                                <div class="finance-valuation-fields d-flex flex-wrap flex-lg-nowrap align-items-end">
+                                    <div class="single-valuation-item val-title">
+                                        <h4>Free Instant Car Valuation</h4>
+                                    </div>
+                                    <div class="single-valuation-item val-input d-flex justify-content-between">
+                                        <div class="singel-val-input w-50 pr-2">
+                                            <label for="regi">Enter Reg</label>
+                                            <input id="regi" type="text" placeholder="Registration">
+                                        </div>
+                                        <div class="singel-val-input w-50 pl-2">
+                                            <label for="milea">Enter Mileage</label>
+                                            <input id="milea" type="text" placeholder="Mileage">
+                                        </div>
+                                    </div>
+                                    <div class="single-valuation-item val-btn">
+                                        <button class="boxed-btn float-right" type="submit" value="submit">Value My Car</button>
+                                    </div>
+                                </div>
+                                <div class="finance-valuation-text text-center">
+                                    <h6>Enter Your Registration Number to Find Your Vehicle’s Details or <a href="#">Click Here</a> to Search for Your Vehicle Manually.</h6>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- finance-valuation-section ends -->
+        </div>
+        <!-- finance-area ends -->
+    
+        <!-- .specification starts -->
+        <div id="specification_section" class="specification-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!-- .table-content-wrap starts -->
+                        <div class="table-content-wrap">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="section-title text-center">
+                                        <h2>Vehicle Specification</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="single-table-item">
+                                        <div class="table-header d-flex align-items-center">
+                                            <span class="head-icon"><img src="./img/icons/spec.svg" alt=""></span> Car Data
+                                        </div>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Price</td>
+                                                    <td>£17,495</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Mileage</td>
+                                                    <td>32,000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Year</td>
+                                                    <td>2016</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Make</td>
+                                                    <td>Mercedes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Model</td>
+                                                    <td>Gla-class</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Variant</td>
+                                                    <td>Gla 200 D Amg Line Premium</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Body Type</td>
+                                                    <td>Estate</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Colour</td>
+                                                    <td>Blue</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Fuel Type</td>
+                                                    <td>Diesel</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Gearbox</td>
+                                                    <td>Automatic</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>No. of Gears</td>
+                                                    <td>7</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Engine Size</td>
+                                                    <td>2.2L</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Road Fund Tax (12 Months)</td>
+                                                    <td>£20.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Doors</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Gross Vehicle Weight</td>
+                                                    <td>2020kg</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="single-table-item">
+                                        <div class="table-header d-flex align-items-center">
+                                            <span class="head-icon"><img src="./img/icons/speed.svg" alt=""></span> Performance
+                                        </div>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <td>BHP</td>
+                                                    <td>134</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Engine Size</td>
+                                                    <td>2.2L</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Top Speed</td>
+                                                    <td>127 mph</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="single-table-item">
+                                        <div class="table-header">
+                                            <span class="head-icon"><img src="./img/icons/dimensions.svg" alt=""></span> Dimensions
+                                        </div>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Length</td>
+                                                    <td>4417m</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Width</td>
+                                                    <td>1804m</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Height</td>
+                                                    <td>1494m</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="single-table-item">
+                                        <div class="table-header">
+                                            <span class="head-icon"><img src="./img/icons/eco.svg" alt=""></span> Economy
+                                        </div>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Average MPG</td>
+                                                    <td>64.2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Urban</td>
+                                                    <td>54.3</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Extra Urban</td>
+                                                    <td>72.4</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CO2 Emissions</td>
+                                                    <td>115</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .table-content-wrap ends -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="specification-bottom-text text-center">
+                            <p>We make every effort to represent details accurately on our Web Site, however variations, errors or omissions may occur. The information contained herewith does not constitute an offer for sale of any particular vehicle, accessory or specification. Customers are advised to contact us to confirm vehicle features & details before relying on this information. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .specification ends -->
+
+        <!-- testimonial-area starts -->
+        <div id="testimonial_section" class="testimonial-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 text-center">
+                        <div class="section-title">
+                            <h2>Customer Reviews</h2>
+                        </div>
+                        <div class="testimonial-quote">
+                            <i class="fa fa-quote-left"></i>
+                        </div>
+                        <div class="owl-carousel testimonial-wrap">
+                            <div class="single-testimonial-item">
+                                <h4>I have been purchasing vehicles here since the early 1980's</h4>
+                                <p>They are always friendly and go out of theirway to help. If there are any problems they always put them right however large or small. Wouldrecommend to anyone.</p>
+                                <div class="stars">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <div class="single-testimonial-item">
+                                <h4>I have been purchasing vehicles here since the early 1980's</h4>
+                                <p>They are always friendly and go out of theirway to help. If there are any problems they always put them right however large or small. Would recommend to anyone.</p>
+                                <div class="stars">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <div class="single-testimonial-item">
+                                <h4>I have been purchasing vehicles here since the early 1980's</h4>
+                                <p>They are always friendly and go out of theirway to help. If there are any problems they always put them right however large or small. Wouldrecommend to anyone.</p>
+                                <div class="stars">
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                    <span><i class="fa fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimonial-area ends -->
+
+        <!-- footer starts -->
+        <div class="footer">
+            <div class="container">
+                <div class="position-relative">
+                    <div class="section-shape text-center">
+                        <!-- Shape SVG starts -->
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="713px"
+                            height="101px" viewBox="0 0 713 101" enable-background="new 0 0 713 101" xml:space="preserve">
+                        <g id="Layer_1" display="none">
+                        </g>
+                        <g id="Layer_2">
+                            <g>
+                                <defs>
+                                    <rect id="SVGID_1_" width="713" height="101"/>
+                                </defs>
+                                <clipPath id="SVGID_2_">
+                                    <use xlink:href="#SVGID_1_"  overflow="visible"/>
+                                </clipPath>
+                                <g id="shape.psd" clip-path="url(#SVGID_2_)">
+                                    <defs>
+                                        <rect id="SVGID_3_" x="-228.758" y="8" width="1169.997" height="153"/>
+                                    </defs>
+                                    <clipPath id="SVGID_4_">
+                                        <use xlink:href="#SVGID_3_"  overflow="visible"/>
+                                    </clipPath>
+                                    <g id="WebsiteBg" clip-path="url(#SVGID_4_)">
+                                        <g>
+                                            <path fill="#20274D" d="M726.93,100.946C606.578,100.946,628.356,8,519.551,8C483.57,8,271.857,8,192.93,8
+                                                c-108.806,0-87.028,92.946-207.379,92.946c-120.352,0-214.309,0-214.309,0V161H941.239v-60.054
+                                                C941.239,100.946,847.282,100.946,726.93,100.946z"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        </svg><!-- Shape SVG ends -->
+                        <div class="section-title text-center">
+                            <h2>Stock Updates</h2>
+                            <p>Enter your details to receive new notifications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- subscription-form-section starts -->
+                        <div class="subscription-form-section">
+                            <div class="subscription-form position-relative">
+                                <i class="fa fa-envelope-o"></i>
+                                <input type="email" placeholder="Enter Email Address" name="emailsubscription">
+                                <button class="boxed-btn" type="submit" value="submit">Subscribe</button>
+                            </div>
+                        </div><!-- subscription-form-section ends -->
+                        <!-- footer-widget-sction widget-section-one starts -->
+                        <div class="footer-widget-sction widget-section-one d-flex flex-wrap flex-lg-nowrap">
+                            <div class="single-footer-widget-item quick-links1">
+                                <h4>Quick Links</h4>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Finance</a></li>
+                                    <li><a href="#">Valuation</a></li>
+                                    <li><a href="#">Protection</a></li>
+                                    <li><a href="#">BTCC</a></li>
+                                    <li><a href="#">About</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item quick-links2">
+                                <h4>Help & Support</h4>
+                                <ul>
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Cookies</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Complaints</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item footer-contact-section">
+                                <h4>Get In Touch</h4>
+                                <div class="d-flex align-items-start justify-content-between">
+                                    <div class="footer-address position-relative">
+                                        <i class="fa fa-map-marker"></i>
+                                        <p>Vanhurst Industrial Estate,<br> Woodham Road,<br> Battlesbridge, Wickford,<br> Essex SS11 7QY</p>
+                                    </div>
+                                    <div class="single-footer-contact footer-phone-contact position-relative">
+                                        <h6>Call US</h6>
+                                        <a href="tel:01268766722"><i class="fa fa-phone"></i>01268 766722</a>
+                                    </div>
+                                </div>
+                                <div class="footer-contact">
+                                    <div class="single-footer-contact position-relative">
+                                        <i class="fa fa-envelope-o"></i>
+                                        <h6>Email US</h6>
+                                        <a href="mailto:info@tradepricecars.com">info@tradepricecars.com</a>
+                                    </div>
+                                </div>
+                                <div class="footer-social-icons">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div><!-- footer-contact-section ends -->
+                        </div><!-- footer-widget-sction widget-section-one ends -->
+
+                        <!-- footer-widget-sction widget-section-two starts -->
+                        <div class="footer-widget-sction widget-section-two d-flex flex-wrap flex-lg-nowrap">
+                            <div class="single-footer-widget-item browse-cars-one">
+                                <h4>Browse Cars</h4>
+                                <ul>
+                                    <li><a href="#">Used Audi</a></li>
+                                    <li><a href="#">Used BMW</a></li>
+                                    <li><a href="#">Used Citroen</a></li>
+                                    <li><a href="#">Used Dacia</a></li>
+                                    <li><a href="#">Used Dodge</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item browse-cars-two">
+                                <h4 style="opacity:0">empty title</h4>
+                                <ul>
+                                    <li><a href="#">Used Fiat</a></li>
+                                    <li><a href="#">Used Ford</a></li>
+                                    <li><a href="#">Used Honda</a></li>
+                                    <li><a href="#">Used Hyundai</a></li>
+                                    <li><a href="#">Used Jaguar</a></li>
+                                </ul>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item browse-cars-three">
+                                <h4 style="opacity:0">empty title</h4>
+                                <ul>
+                                    <li><a href="#">Used Jeep</a></li>
+                                    <li><a href="#">Used Kia</a></li>
+                                    <li><a href="#">Used Land Rover</a></li>
+                                    <li><a href="#">Used Mazda</a></li>
+                                </ul>
+                                <a href="#" class="footer-more">More <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                            <!-- single-footer-widget-item ends -->
+                            <div class="single-footer-widget-item footer-company-info">
+                                <h4>Company Info</h4>
+                                <h6>VAT No. 339834073 <span>|</span> FCA No. 912287 </h6>
+                                <div class="footer-info-text">
+                                    <p>Trade Price Cars Ltd is authorised and regulated by the Financial Conduct Authority, FRN: 912287. All finance is subject to status and income. Written Quotation on request. We act as a credit broker not a lender. We work with a number of carefully selected credit... providers who may be able to offer you finance for your purchase, some of which will pay a commission to us for successful applications. We are only able to offer finance products from these providers.</p>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#" class="footer-more">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div><!-- footer-contact-section ends -->
+                        </div><!-- footer-widget-sction widget-section-two ends -->
+                        
+                        <div class="footer-copyright-section d-flex flex-wrap flex-lg-nowrap justify-content-between">
+                            <div class="footer-copyright-text d-flex align-items-center order-2 order-lg-0">
+                                <p>Copyright &copy; Trade Price Cars . All rights reserved</p>
+                            </div>
+                            <div class="footer-logo text-right">
+                                <span class="ahq">
+                                    Designed &amp; Powered by 
+                                    <img src="img/autohq.png" alt="Car Dealer Websites">
+                                </span>
+                                <!-- Designed & Powered by <img src="img/autohq.png" alt=""> -->
+                            </div>
+                        </div>
+                        <!-- footer-copyright-section ends -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer ends -->
+
+        <a href="#" class="scrollTop d-none d-lg-block"><i class="fa fa-angle-up"></i></a>
+
+        <!--Libraries-->
+        <script src="../theme/js/bootstrap.bundle.min.js"></script>       
+
+         <!--Plugins-->
+         <script src="../theme/js/perfect-scrollbar.jquery.min.js"></script>
+         <script src="../theme/js/jquery.nice-select.min.js"></script>
+         <script src="../theme/js/owl.carousel.min.js"></script>
+         <script src="../theme/js/aos.js"></script>
+         <script src="../theme/js/jqueryUI.js"></script>
+         <script src="../theme/js/jquery.slicknav.min.js"></script>
+         <script src="../theme/js/slick.min.js"></script>
+         <script src="../theme/js/jquery.magnific-popup.min.js"></script>
+         <script src="../theme/js/jquery.sticky.js"></script>
+
+        <!--Active & Custom JS-->
+        <script src="../theme/js/main.js"></script>
+    </body>
+</html>

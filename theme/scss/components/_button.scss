@@ -1,0 +1,38 @@
+/*=========== Button CSS ==========*/
+
+.boxed-btn {
+    @extend %primary-bg-color;
+    padding: 11px 35px;
+    font-weight: 600;
+    @extend %body-font;
+    @extend %posrelative;
+    @extend %zindex2;
+    @extend %white-color;
+    @extend %borderradius5;
+    border: 2px solid transparent;
+    @extend %basetransition2;
+    @extend %uppercase;
+    @extend %textcenter;
+    font-size: 15px;
+    letter-spacing: 1px;
+    @include all-below-mobile-lg{
+        padding: 8px 30px;
+    }
+    &:hover {
+        @extend %bgtransparent;
+        @extend %primary-color;
+        border: 2px solid;
+        @extend %primary-border-color;
+    }
+}
+
+// .bordered-btn {
+//     border: 2px solid #2A7D2E;
+//     font-size: 14px;
+//     font-weight: 400;
+//     line-height: 16px;
+//     background: transparent;
+//     &:hover {
+//         color: #154D32;
+//     }
+// }

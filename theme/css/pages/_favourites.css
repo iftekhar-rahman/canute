@@ -1,0 +1,42 @@
+/*------------favourites-css-------------*/
+.vehicle-listing-info table tr td {
+  width: 50%;
+  padding: 5px 0; }
+
+.vehicle-listing-info table tr {
+  border-bottom: 1px solid #DADCE3; }
+
+.vehicle-listing-info table {
+  width: 100%; }
+
+.vehicle-listing-summary {
+  border-top: 1px solid #DADCE3;
+  border-bottom: 1px solid #DADCE3;
+  padding: 5px 0;
+  margin: 15px 10px 10px;
+  font-size: 14px; }
+
+.vehicle-listing-info {
+  padding: 10px 10px 0px;
+  font-size: 14px; }
+
+.vehicle-listing-summary span {
+  border-right: 1px solid #DADCE3;
+  line-height: 14px;
+  display: inline-block;
+  padding-right: 10px;
+  margin-right: 10px; }
+
+.vehicle-listing-summary span:last-child {
+  border-right: 0;
+  margin-right: 0;
+  padding-right: 0; }
+
+.featured-car-area.favourites-content .single-featured-item .featured-content .featured-car-content {
+  padding-top: 10px; }
+
+.featured-car-area.favourites-content .single-featured-item {
+  margin-bottom: 30px; }
+
+.featured-car-area.favourites-content {
+  padding-bottom: 150px; }

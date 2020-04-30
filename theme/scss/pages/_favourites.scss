@@ -1,0 +1,80 @@
+/*------------favourites-css-------------*/ 
+.vehicle-listing-info {
+    padding: 0px 10px 0px;
+    font-size: 14px;
+    table {
+        width: 100%;
+        tr {
+            border-bottom: 1px solid #DADCE3;
+            td {
+                width: 50%;
+                padding: 5px 0;
+            }
+        }
+    }
+}
+
+.vehicle-listing-summary {
+    border-top: 1px solid #DADCE3;
+    border-bottom: 1px solid #DADCE3;
+    padding: 5px 0;
+    margin: 15px 10px 10px;
+    font-size: 14px;
+    span {
+        border-right: 1px solid #DADCE3;
+        line-height: 14px;
+        display: inline-block;
+        padding-right: 10px;
+        margin-right: 10px;
+        &:last-child {
+            border-right: 0;
+            margin-right: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+
+.fav-title-section{
+    background-color: #F5F7FF;
+    padding: 60px 0 0px;
+
+	.section-title {
+		margin-bottom: 15px;
+	}
+	.fav-text { 
+		margin-bottom: 20px;
+		a { color: #0056b3; }
+	}
+
+
+}
+.featured-car-area.favourites-content .single-featured-item .featured-content .featured-car-content {
+    padding: 10px;
+}
+.featured-car-area.favourites-content .single-featured-item .featured-content .featured-car-price-wrap .featured-car-price-left, .featured-car-area .single-featured-item .featured-content .featured-car-price-wrap .featured-car-price-right {
+    padding: 10px;
+}
+.featured-car-area.favourites-content .single-featured-item {
+    margin-bottom: 30px;
+}
+.featured-car-area.favourites-content {
+    padding: 20px 0 130px;
+    @include all-below-mobile-lg{
+        padding: 20px 0 90px;
+    }
+    @include all-mx-mobile{
+        padding: 20px 0 70px;
+    }
+}
+.featured-car-area.favourites-content .col, .featured-car-area.favourites-content .container, .featured-car-area.favourites-content .owl-carousel, .featured-car-area.favourites-content .row, .owl-carousel .owl-item{
+    position: static;
+}
+
+.featured-car-area.favourites-content {
+}
+
+
+.favourites-content-wrap, .favourites-content-wrap .single-featured-item {
+    min-height: 550px;
+}

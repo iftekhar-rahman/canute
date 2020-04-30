@@ -1,0 +1,508 @@
+/*--------------Car Finance CSS---------------*/
+.breadcrumb-area.finance-breadcrumb {
+    margin-bottom: 0;
+}
+.finance-banner-area {
+    height: 665px;
+    @extend %backgroundimage;
+    @include all-below-med{
+        height: 500px;
+    }
+    @include all-below-mobile-lg{
+        height: 400px;
+    }
+    @include all-mx-mobile{
+        background-position: 70% 0;
+    }
+    .finance-banner-text {
+        margin-top: 160px;
+        @include all-below-med{
+            margin-top: 80px;
+        }
+        @include all-below-mobile-lg{
+            margin-top: 45px;
+        }
+        h2 {
+			margin-bottom: 50px;
+			margin-right: 50px;
+            @include mx-tablet{
+                font-size: 40px;
+                line-height: 1.3;
+                margin-bottom: 40px;
+            }
+            @include all-below-mobile-lg{
+                font-size: 30px;
+                line-height: 1.5;
+                margin-bottom: 20px;
+                background-color: #33333390;
+                padding: 20px;
+                color: #fff;
+                border-radius: 5px;
+            }
+            @include all-mx-mobile{
+                font-size: 28px;
+                line-height: 1.4;
+            }
+        }
+        .finance-banner-btn{
+            width: 400px;
+            @include all-below-mobile-lg{
+                width: 300px;
+            }
+            .boxed-btn {
+                @extend %displayblock;
+                height: 70px;
+                margin-bottom: 10px;
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 50px;
+                @include all-below-mobile-lg{
+                    height: 60px;
+                    font-size: 24px;
+                    line-height: 39px;
+                }
+                &.apply-btn {
+                    width: 340px;
+                    font-size: 20px;
+                    margin: 0 auto;
+                    height: 50px;
+                    line-height: 30px;
+                    background: transparent;
+                    @extend %borderzero;
+                    @extend %secondary-color;
+                    @include all-below-mobile-lg{
+                        font-size: 18px;
+                    }
+                    &:hover{
+                        @extend %primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .finance-about-area
+.finance-about-area {
+    padding: 100px 0;
+    @extend %backgroundimage;
+    @include all-below-med{
+        padding: 70px 0 50px;
+    }
+    .section-title {
+        h2 {
+            @extend %white-color;
+            margin-bottom: 90px;
+            @include all-below-med{
+                margin-bottom: 60px;
+            }
+            @include all-below-mobile-lg{
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .single-finance-about-item {
+        @extend %white-color;
+        @extend %textcenter;
+        @include all-below-mobile-lg{
+            margin-bottom: 30px;
+        }
+        span {
+            font-size: 85px;
+            font-weight: 500;
+            line-height: 90px;
+            @extend %displayblock;
+            margin-bottom: 15px;
+            @include mx-desktops{
+                font-size: 70px;
+                line-height: 70px;
+            }
+            @include all-below-med{
+                font-size: 50px;
+                line-height: 50px;
+            }
+        }
+        h3 {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 1.44;
+            @include mx-desktops{
+                font-size: 20px;
+            }
+            @include all-below-med{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+// .finance-text-area
+.finance-text-area {
+    @extend %backgroundimage;
+    padding: 70px 0;
+    @extend %white-color;
+    @extend %primary-bg-color;
+    @include all-below-med{
+        background-image: none !important;
+        text-align: center;
+        padding: 50px 0;
+    }
+    h1,h2 {
+        @extend %white-color;
+        font-size: 33px;
+		font-weight: 400;
+        @include all-below-med{
+            font-size: 26px;
+        }
+    }
+    .boxed-btn {
+        margin-top: 30px;
+        @include all-below-med{
+            margin-top: 20px;
+        }
+    }
+}
+
+// .finance-contact-area
+.finance-contact-area {
+    padding: 160px 0 120px;
+    @include all-below-med{
+        padding: 80px 0 60px;
+    }
+    @include all-below-mobile-lg{
+        padding: 50px 0 50px;
+    }
+    .finance-contact-bg {
+        @extend %h100;
+        width: 50%;
+        @extend %posabsolute;
+        left: 0;
+        top: 0;
+        @extend %backgroundimage;
+        @include all-below-mobile-lg{
+            width: 100%;
+        }
+        &.right {
+            right: 0;
+            left: auto;
+            @include all-below-mobile-lg{
+                background-image: none !important;
+                width: 0;
+            }
+        }
+    }
+    .finance-contact-block {
+        background-color: #33333390;
+        @extend %white-color;
+        padding: 30px 25px;
+        @extend %borderradius5;
+        margin-right: 70px;
+        @include mx-desktops{
+            margin-right: 20px;
+        }
+        @include all-below-med{
+            margin-right: 20px;
+            padding: 20px;
+        }
+        @include all-below-mobile-lg{
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+        &.right {
+            margin-left: 70px;
+            margin-right: 0;
+            @include mx-desktops{
+                margin-left: 20px;
+            }
+            @include all-below-med{
+                margin-left: 20px;
+            }
+            @include all-below-mobile-lg{
+                margin-left: 0px;
+                margin-bottom: 0px;
+            }
+        }
+        h2 {
+            font-size: 35px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            @include all-below-med{
+                font-size: 28px;
+                margin-bottom: 15px;
+            }
+        }
+        .boxed-btn:hover{
+            border-color: #fff !important;
+            @extend %white-color;
+        }
+    }
+}
+
+
+// .finance-video-area
+.finance-video-area {
+    padding: 60px 0 0;
+    @include all-below-med{
+        padding: 50px 0 130px;
+    }
+    @include all-below-mobile-lg{
+        padding: 50px 0 100px;
+    }
+    @include all-mx-mobile{
+        padding: 50px 0 80px;
+    }
+    .section-title {
+        h2 {
+            margin-bottom: 40px;
+        }
+    }
+	
+	
+    .single-video-item {
+        margin-bottom: 20px;
+        .f-title {
+            @include all-below-med{
+                height: 55px;
+            }
+        }
+        h4 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            font-weight: 500;
+            line-height: 1.3;
+            @include mx-desktops{
+                font-size: 16px;
+            }
+        }
+		
+		.video-responsive{
+			overflow:hidden;
+			padding-bottom:56.25%;
+			position:relative;
+			height:0;
+		}
+		.video-responsive iframe{
+			left:0;
+			top:0;
+			height:100%;
+			width:100%;
+			position:absolute;
+		}		
+		
+		
+    }
+}
+
+
+
+.finance-apply-area {
+    padding: 60px 0 100px;
+    @include all-below-med{
+        padding: 50px 0 130px;
+    }
+    @include all-below-mobile-lg{
+        padding: 50px 0 100px;
+    }
+    @include all-mx-mobile{
+        padding: 50px 0 80px;
+    }
+    .section-title {
+        h2 {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+
+// ----------- finance-apply-content-area -------- //
+
+// .intro-section
+// .intro-section{
+//     .intro-logo {
+//         margin-bottom: 20px;
+//     }
+//     .intro-block {
+//         @extend %primary-bg-color;
+//         @extend %white-color;
+//         padding: 20px;
+//         padding-right: 260px;
+//         margin-bottom: 20px;
+//         h2 {
+//             font-weight: 400;
+//             font-size: 27px;
+//         }
+//         ul {
+//             list-style: disc;
+//             margin-left: 40px;
+//             li {
+//                 margin-bottom: 4px;
+//             }
+//         }
+//     }
+//     .privacy-policy-block {
+//         background: #F0F8FF;
+//         padding: 60px 80px;
+//         font-size: 14px;
+//         margin-bottom: 110px;
+//         button {
+//             @extend %borderzero;
+//             @extend %primary-bg-color;
+//             @extend %white-color;
+//             padding: 6px 34px 6px 11px;
+//             text-transform: uppercase;
+//             position: relative;
+//             margin-top: 5px;
+//             @extend %borderradius3;
+//             .tick-box {
+//                 width: 16px;
+//                 height: 16px;
+//                 @extend %white-bg-color;
+//                 display: inline-block;
+//                 @extend %posabsolute;
+//                 right: 10px;
+//                 top: 7px;
+//                 i {
+//                     color: #000;
+//                     position: relative;
+//                     top: -2px;
+//                 }
+//             }
+//         }
+//         .dpa-accept[data-ticked=false] .tick-box i {
+//             display: none;
+//         }
+//     }
+// }
+
+
+
+// form css
+// .finance-form-section h4 {
+//     font-size: 22px;
+//     font-weight: 400;
+// }
+// .finance-form-wrap {
+//     background: #F0F8FF;
+//     padding: 50px 100px;
+//     margin-bottom: 60px;
+// }
+// .finance-form-wrap h4 {
+//     border-bottom: 1px solid #E0EAF2;
+//     padding-bottom: 10px;
+//     margin-bottom: 20px;
+// }
+// .form-left-content {
+//     padding-right: 30px;
+//     flex-basis: 40%;
+// }
+// .form-right-content {
+//     padding-left: 30px;
+//     flex-basis: 60%;
+//     padding-right: 20px;
+// }
+// .form-left-content label {
+//     margin: 8px 0 0;
+//     font-size: 15px;
+// }
+// .form-right-content i {
+//     @extend %posabsolute;
+//     right: 0;
+//     top: 10px;
+//     color: #777;
+// }
+// .form-right-content .nice-select {
+//     border: 1px solid #E0EAF2;
+//     line-height: 38px;
+// }
+
+// .single-finance-form-item {
+//     margin-bottom: 10px;
+// }
+// .form-right-content input[type=text], .form-right-content input[type=tel], .form-right-content input[type=email] {
+//     width: 100%;
+//     height: 40px;
+//     padding: 10px 15px;
+//     font-size: 15px;
+//     border: 1px solid #E0EAF2;
+// }
+// .form-left-content i {
+//     @extend %posabsolute;
+//     right: 5px;
+//     top: 10px;
+//     @extend %primary-color;
+//     font-size: 18px;
+// }
+
+// jQuery UI calendar
+// .ui-widget-content {
+//     border: 1px solid #E0EAF2;
+//     background: #ffffff;
+//     color: #333333;
+//     @extend %borderradius5;
+// }
+// .ui-widget-header {
+//     border: 1px solid #E0EAF2;
+//     background: #F0F8FF;
+//     color: #333333;
+//     font-weight: bold;
+//     a {
+//         color: #333333;
+//     }
+// }
+// .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+//     @extend %posabsolute;
+//     top: 2px;
+//     width: 1.8em;
+//     height: 1.8em;
+// }
+// .ui-datepicker .ui-datepicker-prev {
+//     left: 2px;
+// }
+// .ui-datepicker .ui-datepicker-next {
+//     right: 2px;
+// }
+// .ui-datepicker .ui-datepicker-prev:after, .ui-datepicker .ui-datepicker-next:before {
+//     @extend %posabsolute;
+//     left: 4px;
+//     top: 6px;
+//     content: "\f0d9";
+//     font-family: fontawesome;
+//     width: 18px;
+//     height: 18px;
+//     background: #333;
+//     @extend %textcenter;
+//     line-height: 19px;
+//     @extend %borderradius5;
+//     @extend %white-color;
+//     font-size: 11px;
+//     padding-right: 1px;
+// }
+// .ui-datepicker .ui-datepicker-next:before{
+//     content: "\f0da";
+//     padding-right: 0;
+//     padding-left: 1px;
+// }
+// .ui-datepicker th {
+//     font-weight: 500;
+//     @extend %body-color;
+// }
+// .ui-datepicker td a {
+//     border: 1px solid #E0EAF2;
+//     background: #F0F8FF;
+//     font-weight: normal;
+//     @extend %body-color;
+// }
+// .ui-datepicker td a:hover, .ui-datepicker td a:focus {
+//     @extend %primary-bg-color;
+//     color: #ffffff;
+// }
+
+
+// Anchor points to adjust positioning becuase of fixed header
+#application {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
