@@ -319,17 +319,17 @@
 
 /*======================== New Sidebar CSS======================= */
 .refine-search-box {
-    // @extend %posrelative;
-    // z-index: 99;
+    @extend %posrelative;
+    z-index: 99;
     @include large-desktops{
         width: 270px;
     }
-    // @include mx-desktops{
-    //     z-index: 9999999999999;
-    // }
-    // @include all-below-med{
-    //     z-index: 9999999999999;
-    // }
+    @include mx-desktops{
+        z-index: 9999999999999;
+    }
+    @include all-below-med{
+        z-index: 9999999999999;
+    }
     transition: all .7s ease;
     @include desktops{
         &.fixed{
