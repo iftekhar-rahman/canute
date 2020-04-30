@@ -7,6 +7,7 @@
     @include all-below-mobile-lg{
         height: 330px;
     }
+    padding: 0;
 }
 .homepage-slider-area {
     @include all-below-med{

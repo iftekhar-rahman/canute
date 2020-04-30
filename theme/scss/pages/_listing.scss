@@ -319,24 +319,25 @@
 
 /*======================== New Sidebar CSS======================= */
 .refine-search-box {
-    @extend %posrelative;
-    z-index: 99;
+    // @extend %posrelative;
+    // z-index: 99;
     @include large-desktops{
         width: 270px;
     }
-    @include mx-desktops{
-        z-index: 9999999999999;
-    }
-    @include all-below-med{
-        z-index: 9999999999999;
-    }
-    transition: .7s;
-    &.fixed{
-        position: fixed;
-        top: 70px;
-        width: 270px;
-        z-index: 9;
-        transition: .7s;
+    // @include mx-desktops{
+    //     z-index: 9999999999999;
+    // }
+    // @include all-below-med{
+    //     z-index: 9999999999999;
+    // }
+    transition: all .7s ease;
+    @include desktops{
+        &.fixed{
+            position: fixed;
+            top: 70px;
+            width: 270px;
+            z-index: 9;
+        }
     }
     input[type=radio] {
         display: none;
@@ -432,18 +433,20 @@
         }
     }
     .sidebar-wrapper{
-        @extend %white-bg-color;
+        background-color: #fff;
         position: fixed;
         left: 0px;
         top: 0;
-        @extend %h100;
+        height: 100%;
         width: 318px;
-        @extend %basetransition1;
-        z-index: 99;
+        transition: all .5s ease;
+        z-index: 9999999999999;
+        transform: translate3d(-360px,0,0px);
         @include large-desktops{
             width: 100%;
             position: relative;
             left: 0;
+            transform: translate3d(0px,0,0px);
         }
         @include all-below-med{
             transform: translate3d(-360px,0,0px);
